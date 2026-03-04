@@ -2,15 +2,18 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum.
+    p.mb-3 <b>Evaluación del proyecto:</b> determina su viabilidad y eficiencia, considerando aspectos financieros y sociales. Se realiza en tres etapas: preparación, ejecución y operación, usando indicadores como flujo de caja. Los objetivos incluyen examinar proyectos, medir resultados y evaluar recursos. Tipologías de evaluación incluyen ex-ante, intra, post, y ex-post, además de formativa y sumativa, para medir el impacto y eficacia en cada fase del ciclo de vida del proyecto.
+    p.mb-3 <b>La evaluación financiera de proyectos:</b> analiza costos y beneficios para determinar la viabilidad de un proyecto. Utiliza indicadores como el Valor Presente Neto (VPN), la Tasa Interna de Retorno (TIR) y la Relación Costo - Beneficio. Si el VPN es positivo, el proyecto se acepta; si es negativo, se rechaza. Un VPN igual a cero deja la decisión al evaluador.
+    p.mb-3 <b>La evaluación económica y social:</b> busca identificar las cualidades y el impacto de un proyecto en el bienestar económico del país. Se diferencia de la evaluación financiera al medir el rendimiento en términos de recursos reales para la sociedad. Utiliza la Tasa Social de Descuento para evaluar la rentabilidad pública. Se basa en los costos verdaderos de oportunidad. Las diferencias entre el análisis financiero y el económico y social se reflejan en la tabla comparativa.
+
     .row.justify-content-center
-      .col-lg-10.mb-5.bgs.p-4.brad
+      .col-lg-12.mb-5
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. ")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
-            img(src="@/assets/bullets/icono-pdf.svg")
+            img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
             p Anexo. Síntesis
 

@@ -1,21 +1,4 @@
-.banner-principal-decorativo
-  &-1
-    animation: float1 3.5s ease-in-out infinite alternate
-    position: absolute
-    top: 20%
-    right: 10%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
 
-@keyframes float1
-  0%
-    transform: translateY(20px)
-  100%
-    transform: translateY(0px)
-  
 ///////////CUSTOM BANNER PRINCIPAL E INTERNO/////////////
 .banner-principal .tarjeta
   background-position: left 50% !important
@@ -39,7 +22,426 @@ figcaption
 .banner-interno__fondo
   background-image: url("../assets/curso/banner_interno.png") !important
 .banner-principal .tarjeta
+  background-color: transparent !important
   @media screen and (max-width: $bp-max-md)
     background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
   @media screen and (max-width: $bp-max-sm)
     background-image: url("../assets/curso/portada/fondo-banner-principal-xs.png") !important
+
+.banner-principal-decorativo
+  &-1
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 66%
+    right: 82%
+  &-2
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 60%
+    right: 5%
+  &-3
+    animation: float1 1.8s ease-in-out infinite alternate
+    position: absolute
+    top: 21%
+    right: 82%
+
+@keyframes float1
+  0%
+    transform: translateY(20px)
+
+  100%
+    transform: translateY(0px)
+
+.fnd-1
+  background-color: #FFEEBD
+.fnd-2
+  background-color: #ECF5FD
+.fnd-3
+  &-1
+    border: 6px solid #BDEFD9
+    border-radius: 2rem
+    padding: 3rem 0
+    height: auto
+    margin: 10px
+    position: relative
+  &-2
+    border: 6px solid #59836B
+    border-radius: 2rem
+    padding: 3rem 0
+    height: auto
+    margin: 10px
+    position: relative
+
+  @media (min-width: 992px) and (max-width: 1200px)
+    min-height: 340px
+    padding: 4px
+  @media (min-width: 1200px)
+    min-height: 400px
+    padding: 4px
+  .fl-box-img
+    position: absolute
+    top: 0
+    right: -20px
+    transform: translateX(14%)
+    width: auto
+    height: auto
+    color: #fff
+    padding: 20px
+    img
+      display: none
+    @media (min-width: 992px) and (max-width: 1200px)
+      top: 0
+      right: 0px
+      transform: translateX(0%)
+      img
+        display: block
+    @media (min-width: 1200px)
+      top: 0.8rem
+      right: -10px
+      transform: translateX(14%)
+      img
+        display: block
+
+.fnd-4
+  background-image: url(../assets/curso/temas/tema1/fnd-1.svg)
+  background-repeat: no-repeat
+  background-position: bottom center
+  background-size: auto
+  background-repeat: no-repeat
+  overflow: visible
+  border-radius: 2rem
+.fnd-5
+  background-color: #ffffff
+  border-radius: 2rem
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    background-color: #01927F
+    background-image: url(../assets/curso/temas/tema1/fl_2.svg)
+  .slyder-a__bullets__item
+    background-color: #A6D9D2
+    border: 1px solid #A6D9D2
+  .slyder-a__bullets__item--active
+    background-color: #01927F
+    border: 1px solid #01927F
+  @media (max-width: $bp-max-xs)
+    margin: 0 -17px
+
+.fnd-6
+  background-image: url(../assets/curso/temas/tema1/fnd-1-.svg)
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+  overflow: visible
+  border-radius: 2rem
+
+.fnd-6-
+  background-color: #ffffff
+  border-radius: 2rem
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    background-color: #43C0FF
+    background-image: url(../assets/curso/temas/tema1/fl_2.svg)
+  .slyder-a__bullets__item
+    background-color: #BDE9FF
+    border: 1px solid #BDE9FF
+  .slyder-a__bullets__item--active
+    background-color: #43C0FF
+    border: 1px solid #43C0FF
+.img-297
+  height: 297px
+  width: auto
+.fnd-7
+  background-image: url(../assets/curso/temas/tema1/fnd-2.svg)
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover !important
+  overflow: visible
+  border-radius: 2rem
+
+.fnd-8
+  &-1
+    border: 6px solid #01A680
+    p
+      text-align: right !important
+
+  &-2
+    border: 6px solid #E08447
+    border-radius: 2rem
+    padding: 4px
+    height: 100% !important
+    min-height: 380px
+    margin: 10px
+    position: relative
+
+.ln
+  border-bottom: 3px solid #02DD84
+  padding: 1rem 0rem 1rem 0rem
+.ln2
+  border-bottom: 3px solid #E08447
+  padding: 1rem 0rem 1rem 0rem
+
+.list
+  width: 100%
+  display: flex !important
+  &__item
+    &__icon
+      position: relative
+      width: 3rem
+      margin-right: 0.65rem
+      margin-top: 4px
+  &__txt
+    p:first-child,
+    h3:first-child
+      margin-top: 0.8rem
+
+$crd-icon-size: 85px
+$crd-padding: 1.5rem
+$crd-width: calc(100% - ((#{$crd-icon-size} / 2)))
+
+.crd_02
+  position: relative
+  display: flex
+  flex-direction: row
+  justify-content: start
+  align-items: center
+  padding: 1.5rem 1.5rem 1.5rem 0
+  z-index: 1
+
+  &::before
+    content: ""
+    position: absolute
+    top: 0
+    right: 0
+    width: $crd-width
+    height: 100%
+    background-color: #F6F6F6
+    border-radius: 15px
+    z-index: -1
+  &__icon
+    order: 1
+    flex-basis: auto
+    width: $crd-icon-size
+    margin-right: 15px
+    img
+      width: $crd-icon-size
+  &__txt
+    flex: 1
+    order: 2
+
+.img-38
+  height: 38px
+
+.ttbl2
+  text-align: center
+  .t1
+    background-color: #A0C9F6
+  .t2
+    background-color: #D9EAFB
+  .t3
+    background-color: #ECF5FD
+  .t4
+    background-color: #A0C9F6
+  .t5
+    background-color: #D9EAFB
+  .t6
+    background-color: #ECF5FD
+  .t7
+    background-color: #6F8DAC
+  .t8
+    background-color: #A0C9F6
+  .t9
+    background-color: #E4FBF2
+    border: 0px solid #707070 !important
+  .t10
+    background-color: #01927F
+    color: white
+  .t11
+    background-color: #A0C9F6
+  .t12
+    background-color: #F5FAFE
+  .t13
+    background-color: #F9FEFC
+  th
+    font-weight: 700
+    font-size: 1.125em
+    border: 2px solid #707070 !important
+  td
+    padding: 10px
+    border: 2px solid #707070 !important
+
+.ttbl3
+
+  text-align: center
+  .t1
+    background-color: #F9FEFC
+    border: 0px solid #707070 !important
+
+  .t2
+    background-color: #F5FDFA
+  .t3
+    background-color: #EBFCF5
+  .t4
+    background-color: #ADECD1
+  .t5
+    background-color: #A0C9F6
+    color: white
+  .t6
+    background-color: #B3E6FF
+  .t7
+    background-color: #D9F3FF
+  .t8
+    background-color: #FFD5B8
+  .t9
+    background-color: #F6E1D3
+  .t10
+    background-color: #E4F3F1
+  .t11
+    background-color: #CCE9E5
+  .t12
+    background-color: #99D3CC
+  th
+    font-weight: 700
+    border: 1px solid #707070 !important
+  td
+    padding: 10px
+    border: 1px solid #707070 !important
+
+.img-fnd-flot2
+  position: relative
+  width: 100%
+  .fl-box2
+    color: #fff
+    padding: 20px
+    border-radius: 1rem
+    margin-top: 1rem
+    background-color: #017662
+    p
+      color: #fff
+
+  .b-img2
+    display: none
+  @media (min-width: 992px)
+    .b-img2
+      display: block
+      width: 900%
+    .fl-box2
+      position: absolute
+      background-color: #ffffff00
+      top: 50%
+      left: 6%
+      transform: translateY(-50%)
+      width: 82%
+      color: #fff
+      padding: 20px
+      border-radius: 1rem
+      p
+        color: #fff
+
+  @media (min-width: 992px) and (max-width: 1200px)
+    border-radius: 1rem
+    padding: 0
+    .b-img2
+      display: block
+      height: auto
+      margin: 3rem 0 3rem 0
+    .fl-box2
+      position: absolute
+      top: 48%
+      transform: translatey(-52%)
+      width: 70%
+      color: #fff
+      padding: 20px
+      border-radius: 1rem
+    .fl-box4
+      width: 90%
+
+.img-fnd-flot8
+  position: relative
+  width: 100%
+  .b-img8
+    display: block
+    width: 14rem
+  .b-img9
+    display: block
+    width: 15rem
+  .fl-box8
+    position: absolute
+    top: 50%
+    transform: translateY(-50%)
+    padding-left: 1.4rem
+
+.slyder-a__bullets__item
+  @media (max-width: $bp-max-xs)
+    margin: 0 5px
+
+.bg-fondo-5
+  background-image: url("../assets/curso/temas/tema1/img18.png") !important
+  background-position: top
+  background-size: cover
+
+.bg-fondo-6
+  background-image: url("../assets/curso/temas/tema1/img24.png") !important
+  background-position: top
+  background-size: cover
+
+.bg-color-white
+  background-color: white !important
+  border: 1px solid $lightest-gray
+
+  //////////////CUSTON SLYDER-A////////
+.slyder-a__bullets__item
+  background-color: #A0C9F6
+  border: #A0C9F6
+.slyder-a__bullets__item--active
+  background-color: #A0C9F6
+.slyder-a__btn--atrs, .slyder-a__btn--sigt
+  background-color: #FF8E6B
+.slyder-a__bullets__item
+  @media screen and ( max-width: $bp-max-xs )
+    margin: 0 5px
+
+.text-color-12263F
+  color: #12263F !important
+
+.ttbl4
+  text-align: center
+  .t1
+    background-color: #F9FEFC
+    // border: 2px solid #A0C9F6 !important
+    font-size: 1.25em
+  .t2
+    background-color: #E8EEF3
+  .t3
+    background-color: #ADECD1
+  .t4
+    background-color: #A0C9F6
+    color: #fff !important
+  .t5
+    background-color: #A0C9F6
+  th
+    font-weight: 700
+    border: 1px solid #707070 !important
+  .not_border
+    font-weight: 700
+    border: none !important
+  td
+    padding: 10px
+    border: 1px solid #707070 !important
+
+  table
+    min-width: 380px !important
+
+// ---- Subtitulos ----- //
+.subtitle
+  background: #F1F3FB
+  background-size: cover
+  background-position: right
+  border-radius: 0px 50px 0px 0px
+  display: inline-block
+  padding: 10px 20px 10px 40px
+  padding-right: 40px
+  position: relative
+
+  .image
+    position: absolute
+    width: 40px
+    top: -15px
+    left: -5px
