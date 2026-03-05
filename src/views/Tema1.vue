@@ -19,7 +19,6 @@
       .col-lg-10.fnd-1.p-4
         p.mb-0 A su vez, para la evaluación del proyecto, es indispensable tomar los valores del flujo neto de caja, que agrupa el flujo neto de inversión, operación y financiamiento, para luego aplicar los indicadores financieros los cuales darán a conocer la viabilidad del proyecto y si es recomendable invertir en este (Puentes, 2011).
     
-   
     .row.justify-content-center.align-items-center
       .col-md-12.col-lg-12
         //- Subtitulo
