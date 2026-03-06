@@ -262,7 +262,7 @@ export default {
         },
         {
           nombre: 'Álvaro Guillermo Araújo Angarita',
-          cargo: 'Desarrollo <em>full stack</em>',
+          cargo: 'Desarrollador <em>full stack</em>',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
