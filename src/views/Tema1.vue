@@ -138,7 +138,7 @@
         p La evaluación financiera de proyectos puede considerarse como el ejercicio mediante el cual se intentan identificar los costos y beneficios de un proyecto, con la finalidad de tomar la decisión más acertada.
         p La evaluación financiera, permite identificar si el proyecto es viable, dada sus inversiones, sus ingresos y egresos durante un periodo de tiempo, reconociendo sus pérdidas o ganancias; esta evaluación se efectúa a través de criterios como el Valor Presente Neto (VPN), la Tasa Interna de Retorno (TIR) y la relación Costo – Beneficio, esto lo podemos apreciar en la figura que se propone a continuación:
 
-    .row.justify-content-center.align-items-center(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-lg-4(data-aos="fade-right")
       .col-lg-10
         .titulo-sexto.color-acento-botones
           h5 Figura 2.
@@ -613,19 +613,18 @@
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10
         .titulo-sexto.color-acento-botones
-          h5 Figura 2.
+          h5 Figura 3.
           span Diferencias Análisis económico y Social vs Análisis Financiero
         figure.mb-0
-          img(src="@/assets/curso/temas/tema1/img39.svg", alt="Pilares básicos de las BPM").d-none.d-lg-block.d-md-block
-          img(src="@/assets/curso/temas/tema1/img40.svg", alt="Infografía sobre BPM").d-block.d-lg-none.d-md-none
+          img(src="@/assets/curso/temas/tema1/img39.svg", alt="Pilares básicos de las BPM").d-none.d-lg-block.d-md-none
+          img(src="@/assets/curso/temas/tema1/img40.svg", alt="Infografía sobre BPM").d-block.d-lg-none.d-md-block
           figcaption Nota. Elaboración propia.
    
     .row.justify-content-center.align-items-center(data-aos="fade-left")
-      .col-xl-10
-        .img-fnd-flot2.mb-3
-          img.b-img2(src='@/assets/curso/temas/tema1/img41.svg')
-          .fl-box2
-            p.mb-3.text-color-12263F Finalmente, la evaluación de proyectos permite estimar los costos y beneficios desde la óptica financiera y los costos y beneficios económicos desde la óptica económica, se construyen los indicadores financieros, los cuales de acuerdo a los resultados obtenidos (viable o no viable), permiten tomar la decisión de continuar con el proyecto.
+      .col-lg-8.p-2
+        .grad1.p-4
+          .col-11
+            p.mb-0 Finalmente, la evaluación de proyectos permite estimar los costos y beneficios desde la óptica financiera y los costos y beneficios económicos desde la óptica económica, se construyen los indicadores financieros, los cuales de acuerdo a los resultados obtenidos (viable o no viable), permiten tomar la decisión de continuar con el proyecto.
 
 
 </template>
