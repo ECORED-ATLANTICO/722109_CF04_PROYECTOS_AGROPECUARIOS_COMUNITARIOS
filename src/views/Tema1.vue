@@ -51,7 +51,7 @@
             p.text-bold Determinar la eﬁcacia de las actividades utilizadas y eﬁciencia de los recursos, en función de los indicadores, de la cantidad empleada de los mismos y de sus costos.            
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in")
-      .col-lg-8
+      .col-lg-12
         p Se considera que el ciclo de vida de un proyecto, finaliza en el momento que se efectúan los desembolsos de efectivo, o sea, cuando se habla de la etapa de ejecución, sin embargo, la vida de un proyecto consta de otras etapas, como se muestra en la figura 1, resaltando además, que las fases del proyecto y las actividades de evaluación se relacionan. 
 
     .row.justify-content-center.align-items-center(data-aos="fade-right")
@@ -63,7 +63,7 @@
           .col-lg-12
             figure.mb-5
               img(src='@/assets/curso/temas/tema1/img06.svg', alt='La figura muestra la jerarquía de las normas de Colombia. 1-Preparacion del proyecto. 2-Ejecucion/terminación del proyecto. 3-Operacion/Post-proyecto.')
-            figcaption Nota. Elaboración propia.
+            figcaption Nota: SENA (2024). 
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-8
@@ -148,8 +148,9 @@
             figure.mb-5
               img.mb-3.d-none.d-lg-block(src='@/assets/curso/temas/tema1/img12.svg', alt='La figura 2 esquematiza el proceso de la evaluación financiera, la cual parte de un flujo de inversiones, ya sean de índole, público o privado, pasando por una evaluación de indicadores financieros (VAN, TIR, R B/C), finalizando con el análisis respectivo, que permita tomar la decisión de llevar a cabo o no la ejecución del proyecto.')
               img.mb-3.d-block.d-lg-none(src='@/assets/curso/temas/tema1/img13.svg', alt='La figura 2 esquematiza el proceso de la evaluación financiera, la cual parte de un flujo de inversiones, ya sean de índole, público o privado, pasando por una evaluación de indicadores financieros (VAN, TIR, R B/C), finalizando con el análisis respectivo, que permita tomar la decisión de llevar a cabo o no la ejecución del proyecto.')
-              figcaption Nota. Elaboración propia.
-        p La figura 2 esquematiza el proceso de la evaluación financiera, la cual parte de un flujo de inversiones, ya sean de índole, público o privado, pasando por una evaluación de indicadores financieros (VAN, TIR, R B/C), finalizando con el análisis respectivo, que permita tomar la decisión de llevar a cabo o no la ejecución del proyecto.
+              figcaption Nota: SENA (2024). 
+        
+    p.mb-4 La figura 2 esquematiza el proceso de la evaluación financiera, la cual parte de un flujo de inversiones, ya sean de índole, público o privado, pasando por una evaluación de indicadores financieros (VAN, TIR, R B/C), finalizando con el análisis respectivo, que permita tomar la decisión de llevar a cabo o no la ejecución del proyecto.
 
    
     .row.justify-content-center.align-items-center.mb-3
@@ -212,7 +213,7 @@
           span Valoración VNA
         .tabla-b.color-acento-contenido.ttbl2
           table
-            caption Nota. Elaboración propia (2021).
+            caption Nota. SENA (2021).
             tr
               th.t1 Valor
               th.t2 Significado
@@ -239,7 +240,7 @@
           span Flujo Neto para cálculo del VNA
         .tabla-b.color-acento-contenido.ttbl2
           table
-            caption Nota. Elaboración propia (2021).
+            caption Nota. SENA (2021).
 
             tr
               th
@@ -250,16 +251,16 @@
               th.t8(rowspan='5') Tasa de oportunidad 18 %
             tr
               td Inversión inicial
-              td $10.000.000
+              td $ 10.000.000
               td                
               td                
               td                
             tr
               td Flujo neto
-              td $-10.000.000
-              td $1.200.000
-              td $6.500.000
-              td $8.700.000
+              td $ -10.000.000
+              td $ 1.200.000
+              td $ 6.500.000
+              td $ 8.700.000
                    
 
     .row.justify-content-center.align-items-center.mb-3
@@ -270,7 +271,6 @@
             h3.subtitle.position-relative ¿Cómo calcular el Valor Presente Neto? 
               img.image(src='@/assets/curso/temas/tema1/icon_subt.svg', alt='Imagen decorativa')
 
-      p Para calcular lo primero que deben hacer es pasar los datos al archivo en Excel, como se muestra en la siguiente figura:
     
     .bg-fondo-5.tarjeta.mb-5(data-aos="fade-left")
       .p-3.px-lg-4
@@ -292,21 +292,21 @@
           .row.justify-content-center.align-items-center
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 3
-              p Ahora se debe dar clic en insertar función aparece el siguiente cuadro de diálogo.
+              p Ahora se debe dar clic en insertar función aparece el siguiente cuadro de diálogo:
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema1/img21.png')
           .row.justify-content-center.align-items-center
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 4
-              p En la celda de Tasa se refiere a la tasa de oportunidad, la celda de valores, corresponden a los flujos netos, como se ilustra en la presente figura.
+              p En la celda de Tasa se refiere a la tasa de oportunidad, la celda de valores, corresponden a los flujos netos, como se muestra en la presente figura:
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema1/img22.png')
           .row.justify-content-center.align-items-center
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 5
-              p Finalmente, al resultado se le suma el flujo neto de la inversión, correspondiente al periodo 0.
+              p Finalmente, al resultado se le suma el flujo neto de la inversión, correspondiente al periodo 0:
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema1/img23.png')
@@ -329,7 +329,7 @@
           span Valoración VNA
         .tabla-b.color-acento-contenido.ttbl2
           table
-            caption Nota. Elaboración propia (2021).
+            caption Nota. SENA (2021).
             tr
               th.t11(colspan='2') Valoración VNA
             tr
@@ -353,7 +353,7 @@
           span Flujo Neto para cálculo de la TIR
         .tabla-b.color-acento-contenido.ttbl2
           table
-            caption Nota. Elaboración propia (2021)
+            caption Nota. SENA (2021)
 
             tr
               th
@@ -364,16 +364,16 @@
               th.t8(rowspan='5') Tasa de oportunidad 18%.
             tr
               td Inversión inicial
-              td $10.000.000
+              td $ 10.000.000
               td                
               td                
               td                
             tr
               td Flujo neto
-              td $-10.000.000
-              td $12.000.000
-              td $6.500.000
-              td $8.700.000
+              td $ -10.000.000
+              td $ 12.000.000
+              td $ 6.500.000
+              td $ 8.700.000
 
 
     .row.justify-content-center.align-items-center.mb-3
@@ -397,7 +397,7 @@
           .row.justify-content-center.align-items-center
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 2
-              p Después de tener los datos en el archivo de Excel se procede a digitar igual seguido de la palabra TIR y se le da clic en insertar función, como lo ilustra la figura.
+              p Después de tener los datos en el archivo de Excel se procede a digitar igual seguido de la palabra TIR y se le da clic en insertar función, como lo muestra la figura:
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema1/img26.png')
@@ -411,7 +411,7 @@
           .row.justify-content-center.align-items-center
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 4
-              p En la celda de Valores se deben seleccionar todos los flujos netos incluyendo el periodo 0, como se ilustra en la presente figura:
+              p En la celda de Valores se deben seleccionar todos los flujos netos incluyendo el periodo 0, como se muestra en la presente figura:
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema1/img28.png')
@@ -464,34 +464,34 @@
                   th.t4 Egresos 
                 tr
                   td 0	  
-                  td $10.000.000 	
+                  td $ 10.000.000 	
                   td 0	
                   td 0              
                 tr
                   td 1
                   td 
-                  td $8.500.000
-                  td $2.500.000 
+                  td $ 8.500.000
+                  td $ 2.500.000 
                 tr
                   td 2
                   td 
-                  td $5.000.000
-                  td $3.200.000 
+                  td $ 5.000.000
+                  td $ 3.200.000 
                 tr
                   td 3
                   td 
-                  td $12.500.000
-                  td $5.800.000 
+                  td $ 12.500.000
+                  td $ 5.800.000 
                 tr
                   td 4
                   td 
-                  td $10.200.000
-                  td $7.400.000 
+                  td $ 10.200.000
+                  td $ 7.400.000 
                 tr
                   td 5
                   td 
-                  td $8.700.000
-                  td $4.250.000 
+                  td $ 8.700.000
+                  td $ 4.250.000 
 
           .col-xl-4
             .tabla-b.color-acento-contenido.mb-3.w-100.ttbl4
@@ -518,7 +518,7 @@
                 tr
                   th.t5 Beneficio - Costo	  
                   td          
-      figcaption.mt-4 Nota. Elaboración propia (2021).
+      figcaption.mt-4 Nota. SENA (2021).
 
 
     .row.justify-content-center.align-items-center.mb-3
@@ -563,21 +563,21 @@
           .row.justify-content-center.align-items-center.p-4
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 5
-              p Al darle enter se obtiene el valor del VNA de los Egresos
+              p Al darle enter se obtiene el valor del VNA de los egresos.
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema1/img36.png')
           .row.justify-content-center.align-items-center.p-4
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 6
-              p  Luego se procede a sumar el VNA de los Egresos con la inversión
+              p  Luego se procede a sumar el VNA de los egresos con la inversión.
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema1/img37.png') 
           .row.justify-content-center.align-items-center.p-4
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 7
-              p Finalmente, la R B/C, se determina dividiendo el VNA de los Ingresos con el VNA de los Egresos + Inversión.
+              p Finalmente, la R B/C, se determina dividiendo el VNA de los ingresos con el VNA de los egresos + inversión.
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema1/img38.png') 
@@ -593,9 +593,9 @@
       .col-lg-8
         p La evaluación económica y social, es aquella que permite identificar las cualidades que tiene un proyecto, indiferente de la situación financiera, por lo que no es un factor relevante, la distribución de las utilidades, tiene como propósito, identificar el impacto que tiene el proyecto sobre el bienestar económico del país.
         p La evaluación económica difiere de la evaluación financiera, la primera pretende medir el rendimiento del proyecto en términos de recursos reales para la sociedad, la segunda se estima el rendimiento de un proyecto. 
-        p Para efectuar la evaluación económica y social se deben utilizar la Tasa Social de Descuento (TSD), que para el caso de Colombia se ha calculado en el 12%, queriendo decir con esto, que la rentabilidad esperada en el proyecto de inversión pública debe estar por encima de este valor.
+        p Para efectuar la evaluación económica y social se deben utilizar la Tasa Social de Descuento (TSD), que para el caso de Colombia se ha calculado en el 12 %, queriendo decir con esto, que la rentabilidad esperada en el proyecto de inversión pública debe estar por encima de este valor.
         p De igual forma, para la evaluación económica y social se debe medir con los costos verdaderos de oportunidad y no con los costos del mercado, estos se conocen como precios sombra o precios cuenta.
-        p Para proceder a realizar la evaluación económica y social se deben tener en cuenta, el anexo: Actualización de la estimación de los indicadores “Razón Precio-Cuenta”.
+        p Para proceder a realizar la evaluación económica y social se deben tener en cuenta, el anexo: Actualización de la estimación de los indicadores “Razón Precio - Cuenta”.
       .col-lg-4.col-md-8
         figure.p-4
           img(src='@/assets/curso/temas/tema1/img31.png')
@@ -618,7 +618,7 @@
         figure.mb-0
           img(src="@/assets/curso/temas/tema1/img39.svg", alt="Pilares básicos de las BPM").d-none.d-lg-block.d-md-none
           img(src="@/assets/curso/temas/tema1/img40.svg", alt="Infografía sobre BPM").d-block.d-lg-none.d-md-block
-          figcaption Nota. Elaboración propia.
+          figcaption Nota. SENA.
    
     .row.justify-content-center.align-items-center(data-aos="fade-left")
       .col-lg-8.p-2
