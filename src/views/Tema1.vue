@@ -68,7 +68,7 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-8
         .row.justify-content-start.align-items-center
-          p.mb-5 El ciclo de vida de un proyecto comienza en la etapa de preparación, continuando con la etapa de ejecución y finalizando con la operación, la evaluación se relaciona en cada una de las fases, resaltando que, para cada fase del ciclo de vida del proyecto, se desarrollan las siguientes tareas:
+          p.mb-5 El ciclo de vida de un proyecto comienza en la etapa de preparación, continuando con la etapa de ejecución y finalizando con la operación; la evaluación se relaciona en cada una de las fases, resaltando que, para cada fase del ciclo de vida del proyecto, se desarrollan las siguientes tareas:
 
           .img-fnd-flot8.mb-3
             img.b-img9(src='@/assets/curso/temas/tema1/fnd--.svg' alt='Background Image')
@@ -146,11 +146,11 @@
         .row.justify-content-center.align-items-center
           .col-lg-12
             figure.mb-5
-              img.mb-3.d-none.d-lg-block(src='@/assets/curso/temas/tema1/img12.svg', alt='La figura 2 esquematiza el proceso de la evaluación financiera, la cual parte de un flujo de inversiones, ya sean de índole, público o privado, pasando por una evaluación de indicadores financieros (VAN, TIR, R B/C), finalizando con el análisis respectivo, que permita tomar la decisión de llevar a cabo o no la ejecución del proyecto.')
-              img.mb-3.d-block.d-lg-none(src='@/assets/curso/temas/tema1/img13.svg', alt='La figura 2 esquematiza el proceso de la evaluación financiera, la cual parte de un flujo de inversiones, ya sean de índole, público o privado, pasando por una evaluación de indicadores financieros (VAN, TIR, R B/C), finalizando con el análisis respectivo, que permita tomar la decisión de llevar a cabo o no la ejecución del proyecto.')
+              img.mb-3.d-none.d-lg-block(src='@/assets/curso/temas/tema1/img12.svg', alt='La figura 2 esquematiza el proceso de la evaluación financiera, la cual parte de un flujo de inversiones, ya sean de índole público o privado, pasando por una evaluación de indicadores financieros (VAN, TIR, R B/C), finalizando con el análisis respectivo, que permita tomar la decisión de llevar a cabo o no la ejecución del proyecto.')
+              img.mb-3.d-block.d-lg-none(src='@/assets/curso/temas/tema1/img13.svg', alt='La figura 2 esquematiza el proceso de la evaluación financiera, la cual parte de un flujo de inversiones, ya sean de índole público o privado, pasando por una evaluación de indicadores financieros (VAN, TIR, R B/C), finalizando con el análisis respectivo, que permita tomar la decisión de llevar a cabo o no la ejecución del proyecto.')
               figcaption Nota: SENA (2024). 
         
-    p.mb-4 La figura 2 esquematiza el proceso de la evaluación financiera, la cual parte de un flujo de inversiones, ya sean de índole, público o privado, pasando por una evaluación de indicadores financieros (VAN, TIR, R B/C), finalizando con el análisis respectivo, que permita tomar la decisión de llevar a cabo o no la ejecución del proyecto.
+    p.mb-4 La figura 2 esquematiza el proceso de la evaluación financiera, la cual parte de un flujo de inversiones, ya sean de índole público o privado, pasando por una evaluación de indicadores financieros (VAN, TIR, R B/C), finalizando con el análisis respectivo, que permita tomar la decisión de llevar a cabo o no la ejecución del proyecto.
 
    
     .row.justify-content-center.align-items-center.mb-3
@@ -168,7 +168,7 @@
       .col-lg-8
         p.mb-0 A la hora de hablar de indicadores financieros, es importante decir, que un indicador es aquella variable que intenta medir de forma cuantitativa o cualitativa, características o comportamientos reales.
         p En el momento de analizar si es pertinente realizar o no un proyecto de inversión, es necesario utilizar ciertos indicadores financieros, los cuales permitirán establecer la viabilidad del proyecto. 
-        p Para efectuar un correcto análisis de la situación financiera del proyecto, es necesario efectuar los tres indicadores propuestos, aunque estos de manera individual tienen sus pros y sus contras, analizados de manera conjunta permite tomar decisiones basadas en los resultados.
+        p Para efectuar un correcto análisis de la situación financiera del proyecto, es necesario efectuar los tres indicadores propuestos, aunque estos de manera individual tienen sus pros y sus contras, analizados de manera conjunta permiten tomar decisiones basadas en los resultados.
         p Los indicadores financieros que se utilizan con mayor frecuencia para la evaluación de proyectos de inversión son: Valor Presente Neto (VAN), Tasa Interna de Retorno (TIR) y la Relación Costo - Beneficio. 
 
 
@@ -429,13 +429,13 @@
         //- Subtitulo
         .align-items-center.justify-content-star.mb-2
           .div(data-aos="fade-left")
-            h3.subtitle.position-relative Relación Beneficio - Costo  R B/C
+            h3.subtitle.position-relative Relación beneficio - costo  R B/C
               img.image(src='@/assets/curso/temas/tema1/icon_subt.svg', alt='Imagen decorativa')
 
       .col-lg-8
-        p La relación costo - beneficio, es la relación presente de los flujos netos a la inversión inicial. En la R B/Cel VAN de los ingresos es mayor al VAN de los egresos, sumado la inversión, es superior a 1 en un periodo de tiempo con una tasa de oportunidad. 
+        p La relación beneficio - costo, es la relación presente de los flujos netos a la inversión inicial. En la R B / Cel VAN de los ingresos es mayor al VAN de los egresos, sumado la inversión, es superior a 1 en un periodo de tiempo con una tasa de oportunidad. 
         p Dado lo anterior, se puede decir que los ingresos son suficientes para cubrir todos los costos y además dan un excedente por cada peso invertido del restante del valor de 1, ante esta situación se habla de un proyecto viable financieramente.
-        p A continuación, se puede visualizar un ejemplo de la Relación Beneficio - Costo en una hoja de cálculo:
+        p A continuación, se puede visualizar un ejemplo de la Relación beneficio - costo en una hoja de cálculo:
       .col-lg-4.col-md-10
         figure.p-4
           img(src='@/assets/curso/temas/tema1/img30.png')
@@ -445,7 +445,7 @@
       .col-lg-12
         .titulo-sexto.color-acento-botones
           h5 Tabla 5. 
-          span Flujo Neto para cálculo de la R B/C
+          span Flujo neto para cálculo de la R B/C
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
@@ -526,7 +526,7 @@
         //- Subtitulo
         .align-items-center.justify-content-star.mb-2
           .div(data-aos="fade-left")
-            h3.subtitle.position-relative ¿Cómo calcular la relación Beneficio - Costo?
+            h3.subtitle.position-relative ¿Cómo calcular la relación beneficio - costo?
               img.image(src='@/assets/curso/temas/tema1/icon_subt.svg', alt='Imagen decorativa')
 
     .bg-fondo-5.tarjeta.mb-5(data-aos="fade-left")
@@ -593,9 +593,9 @@
       .col-lg-8
         p La evaluación económica y social, es aquella que permite identificar las cualidades que tiene un proyecto, indiferente de la situación financiera, por lo que no es un factor relevante, la distribución de las utilidades, tiene como propósito, identificar el impacto que tiene el proyecto sobre el bienestar económico del país.
         p La evaluación económica difiere de la evaluación financiera, la primera pretende medir el rendimiento del proyecto en términos de recursos reales para la sociedad, la segunda se estima el rendimiento de un proyecto. 
-        p Para efectuar la evaluación económica y social se deben utilizar la Tasa Social de Descuento (TSD), que para el caso de Colombia se ha calculado en el 12 %, queriendo decir con esto, que la rentabilidad esperada en el proyecto de inversión pública debe estar por encima de este valor.
+        p Para efectuar la evaluación económica y social se debe utilizar la Tasa Social de Descuento (TSD), que para el caso de Colombia se ha calculado en el 12 %, queriendo decir con esto, que la rentabilidad esperada en el proyecto de inversión pública debe estar por encima de este valor.
         p De igual forma, para la evaluación económica y social se debe medir con los costos verdaderos de oportunidad y no con los costos del mercado, estos se conocen como precios sombra o precios cuenta.
-        p Para proceder a realizar la evaluación económica y social se deben tener en cuenta, el anexo: Actualización de la estimación de los indicadores “Razón Precio - Cuenta”.
+        p Para proceder a realizar la evaluación económica y social se debe tener en cuenta, el anexo: Actualización de la estimación de los indicadores “Razón Precio - Cuenta”.
       .col-lg-4.col-md-8
         figure.p-4
           img(src='@/assets/curso/temas/tema1/img31.png')
@@ -614,7 +614,7 @@
       .col-md-12.col-lg-10
         .titulo-sexto.color-acento-botones
           h5 Figura 3.
-          span Diferencias Análisis económico y Social vs Análisis Financiero
+          span Diferencias análisis económico y aocial vs análisis financiero
         figure.mb-0
           img(src="@/assets/curso/temas/tema1/img39.svg", alt="Pilares básicos de las BPM").d-none.d-lg-block.d-md-none
           img(src="@/assets/curso/temas/tema1/img40.svg", alt="Infografía sobre BPM").d-block.d-lg-none.d-md-block
