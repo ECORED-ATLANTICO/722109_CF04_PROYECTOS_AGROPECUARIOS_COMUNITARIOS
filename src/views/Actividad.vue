@@ -437,8 +437,7 @@ export default {
             },
             {
               id: 'c',
-              texto:
-                'Representar gráficamente la estructura organizacional.',
+              texto: 'Representar gráficamente la estructura organizacional.',
               esCorrecta: true,
             },
             {
@@ -650,8 +649,7 @@ export default {
         },
         {
           id: 20,
-          texto:
-            'El flujo de caja es una herramienta financiera que permite:',
+          texto: 'El flujo de caja es una herramienta financiera que permite:',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
