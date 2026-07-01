@@ -197,7 +197,7 @@
           .crd_02__icon.dan
             img(src="@/assets/curso/temas/tema1/img16.svg", alt="alt")          
           .crd_02__txt
-            h6.mb-0Si el Valor Presente Neto es menor a cero se rechaza el proyecto.
+            h6.mb-0 Si el Valor Presente Neto es menor a cero se rechaza el proyecto.
       .col-lg-4
         .crd_02.mb-5
           .crd_02__icon.dan
@@ -614,7 +614,7 @@
       .col-md-12.col-lg-10
         .titulo-sexto.color-acento-botones
           h5 Figura 3.
-          span Diferencias análisis económico y aocial vs análisis financiero
+          span Diferencias análisis económico y social vs. análisis financiero
         figure.mb-0
           img(src="@/assets/curso/temas/tema1/img39.svg", alt="Pilares básicos de las BPM").d-none.d-lg-block.d-md-none
           img(src="@/assets/curso/temas/tema1/img40.svg", alt="Infografía sobre BPM").d-block.d-lg-none.d-md-block

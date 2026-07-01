@@ -3,7 +3,7 @@ export default {
     Name:
       'Evaluación financiera y plan de acción estratégico de un proyecto agropecuario',
     Description:
-      'La evaluación de proyectos busca identificar, cuantificar y valorar costos y beneficios en un periodo determinado para determinar su viabilidad financiera. Este proceso es crucial para decidir si es conveniente ejecutarlos. La evaluación puede ser para proyectos de inversión privada o social, dependiendo del inversor. Los resultados definirán la tipología del proyecto, ya sea en términos de rentabilidad o beneficios. ',
+      'La evaluación de proyectos busca identificar, cuantificar y valorar costos y beneficios en un periodo determinado para establecer su viabilidad financiera. Este proceso es crucial para decidir si es conveniente ejecutarlos. La evaluación puede ser para proyectos de inversión privada o social, dependiendo del inversor. Los resultados definirán la tipología del proyecto, ya sea en términos de rentabilidad o beneficios.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -84,7 +84,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/733402_CF04_DU.zip',
+        download: 'downloads/722109_CF05_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -158,7 +158,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Córdoba Padilla, M. (2011). <em>Formulación y  Evaluación de Proyectos.</em> Ecoe Ediciones.',
+        'Córdoba Padilla, M. (2011). <em>Formulación y Evaluación de Proyectos.</em> Ecoe Ediciones.',
     },
     {
       referencia:
@@ -172,7 +172,7 @@ export default {
     },
     {
       referencia:
-        'Miranda Miranda, J. J. (2005). <em>Gestión de Proyectos. Identificación - Formulación - Evaluación: Financiera, económica, Social, Ambiental.</em> MM Editores.',
+        'Miranda, J. J. (2005). <em>Gestión de Proyectos. Identificación - Formulación - Evaluación: Financiera, económica, Social, Ambiental.</em> MM Editores.',
     },
     {
       referencia:
@@ -190,12 +190,12 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Responsable Nacional Ecosistema de Recursos Educativos Digitales (RED) - Profesional 06',
+            'Profesional 06. Responsable del Ecosistema de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico – Regional Santander',
         },
         {
-          nombre: 'Miguel De Jesús Paredes Maestre',
-          cargo: 'Responsable de línea de producción',
+          nombre: 'Miguel de Jesús Paredes Maestre',
+          cargo: 'Responsable de la línea de producción',
           centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
       ],
@@ -217,23 +217,24 @@ export default {
         {
           nombre: 'Orlando Barón Méndez',
           cargo: 'Experto temático',
-          centro: 'Centro de Diseño y Metrología – Regional Distrito Capital',
+          centro:
+            'Centro de Desarrollo Agroempresarial – Regional Cundinamarca',
         },
         {
           nombre: 'Paula Andrea Taborda Ortiz',
-          cargo: 'Diseñadora instruccional',
+          cargo: 'Diseñador instruccional',
           centro: 'Centro de Diseño y Metrología – Regional Distrito Capital',
         },
         {
           nombre: 'Sandra Patricia Hoyos Sepúlveda',
           cargo: 'Diseñadora instruccional',
           centro:
-            'Centro para la Industria de la Comunicación Gráfica– Regional Distrito Capital',
+            'Centro para la Industria de la Comunicación Gráfica – Regional Distrito Capital',
         },
         {
           nombre: 'Silvia Milena Sequeda Cárdenas',
-          cargo: 'Evaluadora instruccional',
-          centro: 'Centro de diseño y Metrología – Regional Distrito Capital',
+          cargo: 'Evaluador instruccional',
+          centro: 'Centro de Diseño y Metrología – Regional Distrito Capital',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
@@ -245,7 +246,7 @@ export default {
           nombre: 'Fabian Cuartas Donado',
           cargo: 'Evaluador instruccional',
           centro:
-            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
+            'Centro para el Desarrollo Agroecológico y Agroindustrial Sabanalarga – Regional Atlántico',
         },
       ],
     },
@@ -254,7 +255,7 @@ export default {
       autores: [
         {
           nombre: 'Carmen Alicia Martínez Torres',
-          cargo: 'Diseñador web',
+          cargo: 'Diseño web',
           centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
@@ -278,12 +279,12 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Luz Karime Amaya Cabra',
+          nombre: 'Laura Daniela Burgos Rueda',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
-          nombre: 'Laura Daniela Burgos Rueda',
+          nombre: 'Luz Karime Amaya Cabra',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },

@@ -18,10 +18,10 @@ export default {
   data: () => ({
     cuestionario: {
       tema:
-        'Evaluación de conocimientos sobre los componentes de estudio para la formulación de proyectos agropecuarios.',
+        'Prueba de conocimientos sobre evaluación financiera y el plan de acción estratégico en proyectos agropecuarios',
       titulo: 'Cuestionario',
       introduccion:
-        '<b>Objetivo:</b> evaluar la comprensión y aplicación de los conceptos relacionados con los estudios de mercado, técnico, administrativo, ambiental y financiero en la formulación de proyectos agropecuarios, identificando los elementos que determinan la viabilidad y sostenibilidad de una iniciativa productiva de acuerdo con criterios técnicos, normativos y metodológicos.',
+        '<b>Objetivo:</b> evaluar los conocimientos del aprendiz sobre los fundamentos de la evaluación financiera, económica y social de proyectos agropecuarios, así como la formulación, seguimiento, valoración y ajuste de planes de acción estratégicos, de acuerdo con herramientas de análisis, criterios técnicos y necesidades organizacionales.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -29,179 +29,504 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es el propósito principal del estudio de mercado en un proyecto agropecuario?',
+            '¿Cuál es el propósito principal de la evaluación de proyectos?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Determinar la ubicación del proyecto.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Analizar la viabilidad comercial del bien o servicio.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Calcular el flujo de caja.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Definir el organigrama empresarial.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con la formulación de los componentes de estudio para proyectos agropecuarios.',
-          mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la formulación de los componentes de estudio para proyectos agropecuarios.',
-        },
-        {
-          id: 2,
-          texto: 'La identificación del bien o servicio permite:',
-          imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Establecer las fuentes de financiación.',
+              texto: 'Determinar únicamente los costos de producción.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Definir las características y beneficios de lo que se ofrecerá al mercado.',
+                'Identificar, cuantificar y valorar los costos y beneficios del proyecto.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Determinar la estructura jurídica de la empresa.',
+              texto: 'Elaborar contratos laborales.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Identificar los impactos ambientales.',
+              texto: 'Definir la estructura organizacional.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con la formulación de los componentes de estudio para proyectos agropecuarios.',
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la evaluación financiera y plan de acción estratégico de un proyecto agropecuario.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la formulación de los componentes de estudio para proyectos agropecuarios.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la evaluación financiera y plan de acción estratégico de un proyecto agropecuario.',
+        },
+        {
+          id: 2,
+          texto: 'La evaluación financiera de un proyecto permite:',
+          imagen: require('@/assets/actividad/imagen2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Analizar la rentabilidad desde la perspectiva de los inversionistas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Determinar exclusivamente los impactos ambientales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Evaluar la calidad del producto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Establecer la estructura jurídica de la empresa.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la evaluación financiera y plan de acción estratégico de un proyecto agropecuario.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la evaluación financiera y plan de acción estratégico de un proyecto agropecuario.',
         },
         {
           id: 3,
-          texto: 'La demanda en un estudio de mercado se refiere a:',
+          texto: 'Un proyecto es financieramente viable cuando:',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'La cantidad de productos disponibles para la venta.',
-              esCorrecta: false,
+              texto:
+                'Sus ingresos permiten cubrir los costos and generar beneficios.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'La capacidad productiva de la empresa.',
+              texto: 'Tiene un gran número de trabajadores.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto:
-                'La cantidad de bienes o servicios que los consumidores están dispuestos a adquirir.',
-              esCorrecta: true,
+              texto: 'Posee licencias ambientales.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'El número de proveedores existentes.',
+              texto: 'Cuenta con varios proveedores.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con la formulación de los componentes de estudio para proyectos agropecuarios.',
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la evaluación financiera y plan de acción estratégico de un proyecto agropecuario.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la formulación de los componentes de estudio para proyectos agropecuarios.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la evaluación financiera y plan de acción estratégico de un proyecto agropecuario.',
         },
         {
           id: 4,
-          texto: 'El análisis de la oferta consiste en:',
+          texto:
+            '¿Cuál de los siguientes elementos se considera un beneficio en la evaluación financiera?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Evaluar los competidores y los productos disponibles en el mercado.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Identificar los costos de producción.',
+              texto: 'Gastos administrativos.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Ingresos por ventas del proyecto.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'Establecer el flujo de caja.',
+              texto: 'Costos de producción.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Definir el organigrama empresarial.',
+              texto: 'Pago de impuestos.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con la formulación de los componentes de estudio para proyectos agropecuarios.',
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la evaluación financiera y plan de acción estratégico de un proyecto agropecuario.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la formulación de los componentes de estudio para proyectos agropecuarios.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la evaluación financiera y plan de acción estratégico de un proyecto agropecuario.',
         },
         {
           id: 5,
-          texto:
-            '¿Qué factor influye directamente en la determinación del precio de un producto agropecuario?',
+          texto: 'Los costos de un proyecto corresponden a:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'La cantidad de trabajadores.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'La oferta, la demanda y los costos de producción.',
+              texto:
+                'Los recursos utilizados para desarrollar las actividades del proyecto.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto: 'Los ingresos obtenidos por ventas.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'El organigrama de la empresa.',
+              texto: 'Los aportes de los socios.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'La legislación ambiental.',
+              texto: 'Los beneficios sociales generados.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con la formulación de los componentes de estudio para proyectos agropecuarios.',
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la evaluación financiera y plan de acción estratégico de un proyecto agropecuario.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la formulación de los componentes de estudio para proyectos agropecuarios.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la evaluación financiera y plan de acción estratégico de un proyecto agropecuario.',
         },
         {
           id: 6,
-          texto: 'Una estrategia de mercadeo agrícola busca:',
+          texto: '¿Qué aspecto analiza principalmente la evaluación económica?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Diseñar acciones para posicionar y comercializar el producto.',
+              texto: 'La utilidad para los accionistas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'La estructura organizacional.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Los efectos del proyecto sobre la economía en general.',
               esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'El proceso de contratación.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la evaluación financiera y plan de acción estratégico de un proyecto agropecuario.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la evaluación financiera y plan de acción estratégico de un proyecto agropecuario.',
+        },
+        {
+          id: 7,
+          texto: 'La evaluación social de un proyecto busca determinar:',
+          imagen: require('@/assets/actividad/imagen3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Los costos de producción.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'La rentabilidad financiera.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Los precios de mercado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Los beneficios y efectos que genera para la comunidad.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la evaluación financiera y plan de acción estratégico de un proyecto agropecuario.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la evaluación financiera y plan de acción estratégico de un proyecto agropecuario.',
+        },
+        {
+          id: 8,
+          texto:
+            'Un ejemplo de beneficio social generado por un proyecto agropecuario es:',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Incremento de los costos operativos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Generación de empleo en la comunidad.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Pago de servicios públicos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Compra de insumos agrícolas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la evaluación financiera y plan de acción estratégico de un proyecto agropecuario.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la evaluación financiera y plan de acción estratégico de un proyecto agropecuario.',
+        },
+        {
+          id: 9,
+          texto: 'La rentabilidad de un proyecto se relaciona con:',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'La capacidad de generar beneficios en comparación con la inversión realizada.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'El número de trabajadores contratados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La cantidad de maquinaria utilizada.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La ubicación geográfica del proyecto.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la evaluación financiera y plan de acción estratégico de un proyecto agropecuario.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la evaluación financiera y plan de acción estratégico de un proyecto agropecuario.',
+        },
+        {
+          id: 10,
+          texto: 'La evaluación de proyectos permite tomar decisiones sobre:',
+          imagen: require('@/assets/actividad/imagen2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'La selección de personal únicamente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'El diseño del logotipo empresarial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La conveniencia de ejecutar o no una iniciativa.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'La compra de terrenos exclusivamente.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la evaluación financiera y plan de acción estratégico de un proyecto agropecuario.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la evaluación financiera y plan de acción estratégico de un proyecto agropecuario.',
+        },
+        {
+          id: 11,
+          texto: 'Un proyecto público se caracteriza porque:',
+          imagen: require('@/assets/actividad/imagen3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Busca exclusivamente el lucro privado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Es financiado y orientado principalmente al bienestar colectivo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Solo beneficia a los inversionistas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Carece de objetivos sociales.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la agroecología y la evaluación ambiental de los sistemas agrícolas.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la agroecología y la evaluación ambiental de los sistemas agrícolas.',
+        },
+        {
+          id: 12,
+          texto: 'Un proyecto privado tiene como finalidad principal:',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Desarrollar políticas públicas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Administrar recursos del Estado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Ejecutar programas comunitarios obligatoriamente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Generar beneficios económicos para sus inversionistas.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la evaluación financiera y plan de acción estratégico de un proyecto agropecuario.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la evaluación financiera y plan de acción estratégico de un proyecto agropecuario.',
+        },
+        {
+          id: 13,
+          texto: 'El plan de acción estratégico permite:',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Organizar actividades para alcanzar los objetivos propuestos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Determinar únicamente el presupuesto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Establecer el precio de venta de los productos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Diseñar la infraestructura del proyecto.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la evaluación financiera y plan de acción estratégico de un proyecto agropecuario.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la evaluación financiera y plan de acción estratégico de un proyecto agropecuario.',
+        },
+        {
+          id: 14,
+          texto: 'Una acción de mejora debe formularse con base en:',
+          imagen: require('@/assets/actividad/imagen2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Opiniones informales sin análisis previo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Diagnósticos y herramientas de análisis.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Decisiones improvisadas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Experiencias de otros sectores sin adaptación.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la evaluación financiera y plan de acción estratégico de un proyecto agropecuario.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la evaluación financiera y plan de acción estratégico de un proyecto agropecuario.',
+        },
+        {
+          id: 15,
+          texto: 'El diagnóstico organizacional tiene como propósito:',
+          imagen: require('@/assets/actividad/imagen3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Identificar fortalezas, debilidades y oportunidades de mejora.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Elaborar únicamente presupuestos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Definir los precios de los productos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Realizar auditorías tributarias.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la evaluación financiera y plan de acción estratégico de un proyecto agropecuario.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la evaluación financiera y plan de acción estratégico de un proyecto agropecuario.',
+        },
+        {
+          id: 16,
+          texto: 'Para definir un plan de acción es necesario:',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Diseñar campañas publicitarias exclusivamente.',
+              esCorrecta: false,
             },
             {
               id: 'b',
@@ -210,479 +535,155 @@ export default {
             },
             {
               id: 'c',
-              texto: 'Determinar el tamaño de la empresa.',
+              texto: 'Determinar la oferta del mercado.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Gestionar licencias ambientales.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con la formulación de los componentes de estudio para proyectos agropecuarios.',
-          mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la formulación de los componentes de estudio para proyectos agropecuarios.',
-        },
-        {
-          id: 7,
-          texto:
-            'En el estudio técnico, la localización del proyecto hace referencia a:',
-          imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'La forma jurídica de la empresa.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
               texto:
-                'El lugar donde se desarrollarán las actividades productivas.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'La estrategia comercial.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'La estructura organizacional.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con la formulación de los componentes de estudio para proyectos agropecuarios.',
-          mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la formulación de los componentes de estudio para proyectos agropecuarios.',
-        },
-        {
-          id: 8,
-          texto: 'El tamaño de un proyecto agropecuario está relacionado con:',
-          imagen: require('@/assets/actividad/imagen4.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'La cantidad de leyes aplicables.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'El número de socios.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'El tipo de contrato utilizado.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'La capacidad de producción prevista.',
+                'Establecer actividades, responsables y tiempos de ejecución.',
               esCorrecta: true,
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con la formulación de los componentes de estudio para proyectos agropecuarios.',
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la evaluación financiera y plan de acción estratégico de un proyecto agropecuario.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la formulación de los componentes de estudio para proyectos agropecuarios.',
-        },
-        {
-          id: 9,
-          texto: 'La descripción del proceso productivo permite:',
-          imagen: require('@/assets/actividad/imagen1.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto:
-                'Identificar las etapas necesarias para obtener el producto o servicio.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Definir el flujo de caja.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Establecer la estructura jurídica.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Determinar los impuestos aplicables.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con la formulación de los componentes de estudio para proyectos agropecuarios.',
-          mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la formulación de los componentes de estudio para proyectos agropecuarios.',
-        },
-        {
-          id: 10,
-          texto: 'El cronograma de actividades tiene como finalidad:',
-          imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Organizar las tareas según tiempos y responsables.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Determinar el precio de venta.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Establecer los impuestos de la empresa.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Definir la demanda del mercado.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con la formulación de los componentes de estudio para proyectos agropecuarios.',
-          mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la formulación de los componentes de estudio para proyectos agropecuarios.',
-        },
-        {
-          id: 11,
-          texto: 'La planeación estratégica permite:',
-          imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Definir la dirección y los objetivos de la organización.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Calcular únicamente los costos de producción.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Elaborar el flujo de caja.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Establecer la oferta del mercado.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con la formulación de los componentes de estudio para proyectos agropecuarios.',
-          mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la formulación de los componentes de estudio para proyectos agropecuarios.',
-        },
-        {
-          id: 12,
-          texto: 'El análisis DOFA evalúa:',
-          imagen: require('@/assets/actividad/imagen4.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Costos, gastos e ingresos.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Debilidades, oportunidades, fortalezas y amenazas.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Oferta, demanda, precio y promoción.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Riesgos ambientales y financieros.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con la formulación de los componentes de estudio para proyectos agropecuarios.',
-          mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la formulación de los componentes de estudio para proyectos agropecuarios.',
-        },
-        {
-          id: 13,
-          texto: '¿Cuál es la función principal de un organigrama?',
-          imagen: require('@/assets/actividad/imagen1.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Determinar los precios del producto.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Calcular la rentabilidad del proyecto.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Representar gráficamente la estructura organizacional.',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto: 'Identificar los impactos ambientales.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con la formulación de los componentes de estudio para proyectos agropecuarios.',
-          mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la formulación de los componentes de estudio para proyectos agropecuarios.',
-        },
-        {
-          id: 14,
-          texto: 'El aspecto legal de un proyecto agropecuario busca:',
-          imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Garantizar el cumplimiento de las normas aplicables.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Incrementar automáticamente la producción.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Reducir los costos financieros.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Establecer la estrategia de mercadeo.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con la formulación de los componentes de estudio para proyectos agropecuarios.',
-          mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la formulación de los componentes de estudio para proyectos agropecuarios.',
-        },
-        {
-          id: 15,
-          texto: 'La normatividad agropecuaria tiene como objetivo:',
-          imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Identificar la demanda.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Determinar el flujo de caja.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Elaborar el organigrama empresarial.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Regular las actividades del sector agropecuario.',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con la formulación de los componentes de estudio para proyectos agropecuarios.',
-          mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la formulación de los componentes de estudio para proyectos agropecuarios.',
-        },
-        {
-          id: 16,
-          texto:
-            '¿Cuál de las siguientes corresponde a un tipo de empresa reconocido en Colombia?',
-          imagen: require('@/assets/actividad/imagen4.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Sociedad por Acciones Simplificada (SAS).',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Asociación Temporal de Producción.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Cooperativa Informal de Negocios.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Grupo Empresarial Rural Autónomo.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con la formulación de los componentes de estudio para proyectos agropecuarios.',
-          mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la formulación de los componentes de estudio para proyectos agropecuarios.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la evaluación financiera y plan de acción estratégico de un proyecto agropecuario.',
         },
         {
           id: 17,
-          texto: 'La contratación en una empresa permite:',
+          texto: 'La valoración de los resultados del plan de acción permite:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Definir la ubicación del proyecto.',
-              esCorrecta: false,
+              texto: 'Verificar el cumplimiento de los objetivos establecidos.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Calcular los ingresos esperados.',
+              texto: 'Calcular únicamente los impuestos.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto:
-                'Establecer formalmente las relaciones laborales o comerciales.',
-              esCorrecta: true,
+              texto: 'Incrementar automáticamente los ingresos.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Elaborar indicadores ambientales.',
+              texto: 'Modificar la normatividad vigente.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con la formulación de los componentes de estudio para proyectos agropecuarios.',
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la evaluación financiera y plan de acción estratégico de un proyecto agropecuario.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la formulación de los componentes de estudio para proyectos agropecuarios.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la evaluación financiera y plan de acción estratégico de un proyecto agropecuario.',
         },
         {
           id: 18,
-          texto: 'El estudio ambiental busca principalmente:',
+          texto: 'El seguimiento de un plan de acción facilita:',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Determinar el precio del producto.',
+              texto: 'Eliminar la necesidad de planificación.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Establecer la estructura organizacional.',
+              texto: 'Evitar la asignación de responsabilidades.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Calcular la rentabilidad financiera.',
-              esCorrecta: false,
+              texto: 'Detectar desviaciones y realizar ajustes oportunos.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto:
-                'Identificar y gestionar los impactos ambientales del proyecto.',
-              esCorrecta: true,
+              texto: 'Reducir automáticamente los costos.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con la formulación de los componentes de estudio para proyectos agropecuarios.',
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la evaluación financiera y plan de acción estratégico de un proyecto agropecuario.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la formulación de los componentes de estudio para proyectos agropecuarios.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la evaluación financiera y plan de acción estratégico de un proyecto agropecuario.',
         },
         {
           id: 19,
-          texto: 'La legislación ambiental establece:',
+          texto: 'Ajustar un plan de acción significa:',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Las normas para la protección y conservación de los recursos naturales.',
+                'Modificar estrategias y actividades según los resultados obtenidos.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Los precios máximos de los productos agropecuarios.',
+              texto: 'Cancelar todas las actividades programadas.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'La estructura jurídica de las empresas.',
+              texto: 'Incrementar el presupuesto sin análisis.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Los procedimientos de contratación laboral.',
+              texto: 'Cambiar los objetivos del proyecto permanentemente.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con la formulación de los componentes de estudio para proyectos agropecuarios.',
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la evaluación financiera y plan de acción estratégico de un proyecto agropecuario.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la formulación de los componentes de estudio para proyectos agropecuarios.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la evaluación financiera y plan de acción estratégico de un proyecto agropecuario.',
         },
         {
           id: 20,
-          texto: 'El flujo de caja es una herramienta financiera que permite:',
+          texto:
+            'La evaluación financiera, económica y social de un proyecto contribuye a:',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Identificar impactos ambientales',
+              texto: 'Establecer el organigrama empresarial.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Registrar y proyectar ingresos y egresos de dinero en un período determinado.',
+                'Tomar decisiones informadas sobre su viabilidad y sostenibilidad.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Determinar la estructura organizacional.',
+              texto: 'Determinar únicamente el valor de los activos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Analizar la oferta y la demanda.',
+              texto: 'Elaborar contratos de trabajo.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con la formulación de los componentes de estudio para proyectos agropecuarios.',
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la evaluación financiera y plan de acción estratégico de un proyecto agropecuario.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la formulación de los componentes de estudio para proyectos agropecuarios.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la evaluación financiera y plan de acción estratégico de un proyecto agropecuario.',
         },
       ],
       mensaje_final_aprobado:
-        'Ha superado la actividad y demuestra sólidos conocimientos sobre la formulación de los componentes de estudio para proyectos agropecuarios.',
+        'Ha superado la actividad y demuestra sólidos conocimientos sobre la evaluación financiera y plan de acción estratégico de un proyecto agropecuario.',
       mensaje_final_reprobado:
         'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
