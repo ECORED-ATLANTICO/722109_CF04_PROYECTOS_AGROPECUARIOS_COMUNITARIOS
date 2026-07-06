@@ -62,8 +62,8 @@
         .row.justify-content-center.align-items-center.mb-4
           .col-lg-12
             figure.mb-5
-              img(src='@/assets/curso/temas/tema1/img06.svg', alt='La figura muestra la jerarquía de las normas de Colombia. 1-Preparacion del proyecto. 2-Ejecucion/terminación del proyecto. 3-Operacion/Post-proyecto.')
-            figcaption Nota: SENA (2024). 
+              img(src='@/assets/curso/temas/tema1/img06.svg', alt='La figura describe las fases de un proyecto, representadas como una secuencia ascendente de bloques numerados. La etapa 01 corresponde a la preparación del proyecto; la etapa 02, a la ejecución y terminación del proyecto; y la etapa 03, a la operación o post-proyecto. El diagrama muestra el avance progresivo del proyecto desde su planificación hasta su etapa posterior a la ejecución.')
+            figcaption Nota. Elaboración propia. Normatividad del sector agropecuario en Colombia.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-8
@@ -146,9 +146,9 @@
         .row.justify-content-center.align-items-center
           .col-lg-12
             figure.mb-5
-              img.mb-3.d-none.d-lg-block(src='@/assets/curso/temas/tema1/img12.svg', alt='La figura 2 esquematiza el proceso de la evaluación financiera, la cual parte de un flujo de inversiones, ya sean de índole público o privado, pasando por una evaluación de indicadores financieros (VAN, TIR, R B/C), finalizando con el análisis respectivo, que permita tomar la decisión de llevar a cabo o no la ejecución del proyecto.')
-              img.mb-3.d-block.d-lg-none(src='@/assets/curso/temas/tema1/img13.svg', alt='La figura 2 esquematiza el proceso de la evaluación financiera, la cual parte de un flujo de inversiones, ya sean de índole público o privado, pasando por una evaluación de indicadores financieros (VAN, TIR, R B/C), finalizando con el análisis respectivo, que permita tomar la decisión de llevar a cabo o no la ejecución del proyecto.')
-              figcaption Nota: SENA (2024). 
+              img.mb-3.d-none.d-lg-block(src='@/assets/curso/temas/tema1/img12.svg', alt='En la figura se detalla el proceso de evaluación financiera que incluye el flujo de inversiones, el flujo de producción, la adopción de criterios TIR, VPN, B/C y el análisis.')
+              img.mb-3.d-block.d-lg-none(src='@/assets/curso/temas/tema1/img13.svg', alt='En la figura se detalla el proceso de evaluación financiera que incluye el flujo de inversiones, el flujo de producción, la adopción de criterios TIR, VPN, B/C y el análisis.')
+              figcaption Nota. Elaboración propia.
         
     p.mb-4 La figura 2 esquematiza el proceso de la evaluación financiera, la cual parte de un flujo de inversiones, ya sean de índole público o privado, pasando por una evaluación de indicadores financieros (VAN, TIR, R B/C), finalizando con el análisis respectivo, que permita tomar la decisión de llevar a cabo o no la ejecución del proyecto.
 
@@ -213,7 +213,7 @@
           span Valoración VNA
         .tabla-b.color-acento-contenido.ttbl2
           table
-            caption Nota. SENA (2021).
+            caption Nota. Elaboración propia (2021).
             tr
               th.t1 Valor
               th.t2 Significado
@@ -240,7 +240,7 @@
           span Flujo Neto para cálculo del VNA
         .tabla-b.color-acento-contenido.ttbl2
           table
-            caption Nota. SENA (2021).
+            caption Nota. Elaboración propia (2021).
 
             tr
               th
@@ -329,7 +329,7 @@
           span Valoración VNA
         .tabla-b.color-acento-contenido.ttbl2
           table
-            caption Nota. SENA (2021).
+            caption Nota. Elaboración propia (2021).
             tr
               th.t11(colspan='2') Valoración VNA
             tr
@@ -353,7 +353,7 @@
           span Flujo Neto para cálculo de la TIR
         .tabla-b.color-acento-contenido.ttbl2
           table
-            caption Nota. SENA (2021)
+            caption Nota. Elaboración propia (2021).
 
             tr
               th
@@ -371,7 +371,7 @@
             tr
               td Flujo neto
               td $ -10.000.000
-              td $ 12.000.000
+              td $ 1.200.000
               td $ 6.500.000
               td $ 8.700.000
 
@@ -433,7 +433,7 @@
               img.image(src='@/assets/curso/temas/tema1/icon_subt.svg', alt='Imagen decorativa')
 
       .col-lg-8
-        p La relación beneficio - costo, es la relación presente de los flujos netos a la inversión inicial. En la R B / Cel VAN de los ingresos es mayor al VAN de los egresos, sumado la inversión, es superior a 1 en un periodo de tiempo con una tasa de oportunidad. 
+        p La relación beneficio - costo, es la relación presente de los flujos netos a la inversión inicial. En la R B/C el VAN de los ingresos es mayor al VAN de los egresos, sumando la inversión, es superior a 1 en un periodo de tiempo con una tasa de oportunidad. 
         p Dado lo anterior, se puede decir que los ingresos son suficientes para cubrir todos los costos y además dan un excedente por cada peso invertido del restante del valor de 1, ante esta situación se habla de un proyecto viable financieramente.
         p A continuación, se puede visualizar un ejemplo de la Relación beneficio - costo en una hoja de cálculo:
       .col-lg-4.col-md-10
@@ -518,7 +518,7 @@
                 tr
                   th.t5 Beneficio - Costo	  
                   td          
-      figcaption.mt-4 Nota. SENA (2021).
+      figcaption.mt-4 Nota. Elaboración propia (2021).
 
 
     .row.justify-content-center.align-items-center.mb-3
@@ -589,13 +589,20 @@
     #1_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
       h2 1.2 Evaluación económica y social
 
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
         p La evaluación económica y social, es aquella que permite identificar las cualidades que tiene un proyecto, indiferente de la situación financiera, por lo que no es un factor relevante, la distribución de las utilidades, tiene como propósito, identificar el impacto que tiene el proyecto sobre el bienestar económico del país.
         p La evaluación económica difiere de la evaluación financiera, la primera pretende medir el rendimiento del proyecto en términos de recursos reales para la sociedad, la segunda se estima el rendimiento de un proyecto. 
         p Para efectuar la evaluación económica y social se debe utilizar la Tasa Social de Descuento (TSD), que para el caso de Colombia se ha calculado en el 12 %, queriendo decir con esto, que la rentabilidad esperada en el proyecto de inversión pública debe estar por encima de este valor.
         p De igual forma, para la evaluación económica y social se debe medir con los costos verdaderos de oportunidad y no con los costos del mercado, estos se conocen como precios sombra o precios cuenta.
-        p Para proceder a realizar la evaluación económica y social se debe tener en cuenta, el anexo: Actualización de la estimación de los indicadores “Razón Precio - Cuenta”.
+        p.mb-4 Para proceder a realizar la evaluación económica y social se debe tener en cuenta el siguiente anexo:
+        .row.justify-content-center.mb-0
+          .col-lg-12
+            a.anexo(:href="obtenerLink('/downloads/Anexo1_Estimacion_indicadores_razon_precio_cuenta.pdf')" target="_blank")
+              .anexo__icono
+                img(src="@/assets/template/icono-pdf.svg")
+              .anexo__texto
+                p <b>Anexo.</b> Actualización de la estimación de los indicadores “Razón Precio - Cuenta”.
       .col-lg-4.col-md-8
         figure.p-4
           img(src='@/assets/curso/temas/tema1/img31.png')
@@ -616,15 +623,15 @@
           h5 Figura 3.
           span Diferencias análisis económico y social vs. análisis financiero
         figure.mb-0
-          img(src="@/assets/curso/temas/tema1/img39.svg", alt="Pilares básicos de las BPM").d-none.d-lg-block.d-md-none
-          img(src="@/assets/curso/temas/tema1/img40.svg", alt="Infografía sobre BPM").d-block.d-lg-none.d-md-block
-          figcaption Nota. SENA.
+          img(src="@/assets/curso/temas/tema1/img39.svg", alt="En la figura se detalla las diferencias entre el análisis económico y social vs análisis financiero.").d-none.d-lg-block.d-md-none
+          img(src="@/assets/curso/temas/tema1/img40.svg", alt="En la figura se detalla las diferencias entre el análisis económico y social vs análisis financiero.").d-block.d-lg-none.d-md-block
+          figcaption Nota. Elaboración propia.
    
     .row.justify-content-center.align-items-center(data-aos="fade-left")
       .col-lg-8.p-2
         .grad1.p-4
           .col-11
-            p.mb-0 Finalmente, la evaluación de proyectos permite estimar los costos y beneficios desde la óptica financiera y los costos y beneficios económicos desde la óptica económica, se construyen los indicadores financieros, los cuales de acuerdo a los resultados obtenidos (viable o no viable), permiten tomar la decisión de continuar con el proyecto.
+            p.mb-0 Finalmente, la evaluación de proyectos permite estimar los costos y beneficios desde la óptica financiera y los costos y beneficios económicos desde la óptica económica, se construyen los indicadores financieros, los cuales, de acuerdo a los resultados obtenidos (viable o no viable), permiten tomar la decisión de continuar con el proyecto.
 
 
 </template>

@@ -139,16 +139,15 @@ export default {
         'Es un trabajo o esfuerzo que se ejecuta una sola vez y que persigue un fin específico, y tiene como característica principal producir resultados únicos como un producto o un servicio.',
     },
     {
-      termino: 'Tasa Interna de Retorno (TIR)',
+      termino: 'Tasa interna de retorno (TIR)',
       significado:
         'Tasa de descuentos que equivale al valor presente del flujo de caja neto en relación con el costo inicial de un proyecto.',
     },
     {
-      termino: 'Valor Presente Neto (VAN)',
+      termino: 'Valor presente neto (VAN)',
       significado:
         'Valor presente de la corriente estimada de los flujos de caja neto de un proyecto, descontando el costo de capital de la firma, menos el costo inicial del proyecto.',
     },
-
     {
       termino: 'Viabilidad',
       significado:
@@ -207,7 +206,7 @@ export default {
           nombre: 'Roberto Augusto Bernal Duque',
           cargo: 'Experto temático',
           centro:
-            'Centro de Desarrollo Agroempresarial - Regional Cundinamarca',
+            'Centro de Desarrollo Agroempresarial – Regional Cundinamarca',
         },
         {
           nombre: 'Yeison Farid Méndez Ortiz',
@@ -222,7 +221,7 @@ export default {
         },
         {
           nombre: 'Paula Andrea Taborda Ortiz',
-          cargo: 'Diseñador instruccional',
+          cargo: 'Diseñadora instruccional',
           centro: 'Centro de Diseño y Metrología – Regional Distrito Capital',
         },
         {
