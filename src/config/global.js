@@ -43,12 +43,91 @@ export default {
           {
             numero: '1.1',
             titulo: 'Evaluación financiera',
-            hash: '1_1',
+            hash: 't_1_1',
           },
           {
             numero: '1.2',
             titulo: 'Evaluación económica y social',
-            hash: '1_2',
+            hash: 't_1_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema2',
+        numero: '2',
+        titulo: 'Recolección de la información',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Concepto',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Herramientas y técnicas de recolección',
+            hash: 't_2_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema3',
+        numero: '3',
+        titulo: 'Diagnóstico',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Concepto',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Características',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Herramientas de análisis',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Importancia',
+            hash: 't_3_4',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Plan de acción estratégico',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Concepto',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Elementos',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo: 'Procedimiento de elaboración',
+            hash: 't_4_3',
+          },
+          {
+            numero: '4.4',
+            titulo: 'Diligenciamiento',
+            hash: 't_4_4',
+          },
+          {
+            numero: '4.5',
+            titulo: 'Importancia',
+            hash: 't_4_5',
           },
         ],
       },

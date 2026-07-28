@@ -325,3 +325,47 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2)))
   // border-radius: 40px 0 40px 0 !important
   background-size: cover
   background-repeat: no repeat
+
+// acordion
+.acordion__activo
+  background-color: $color-secundario-10
+  background-repeat: no-repeat
+  background-size: cover 
+  background-position: center
+  overflow: hidden 
+.acordion__contenido 
+  padding-left: 3.5rem
+.acordion__accion__btn--a
+  background-color: $white
+  color: $color-acento-botones
+
+// TabsA 
+.tabs-a.color-secundario.mb-3.uno
+  .row
+    align-items: stretch !important
+    justify-content: center !important
+    .col-lg-4.col-xl-3
+      flex: 0 0 50% !important
+      max-width: 50% !important
+      display: flex
+      flex-direction: column
+
+      @media (min-width: 1200px)
+        flex: 0 0 33% !important
+        max-width: 33% !important
+
+      @media (max-width: 991px)
+        flex: 0 0 100% !important
+        max-width: 100% !important
+    .col-lg-8.col-xl-9
+      flex: 0 0 50% !important
+      max-width: 50% !important
+      display: flex !important
+
+      @media (min-width: 1200px)
+        flex: 0 0 67% !important
+        max-width: 67% !important
+
+      @media (max-width: 991px)
+        flex: 0 0 100% !important
+        max-width: 100% !important

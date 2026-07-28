@@ -127,7 +127,7 @@
 
 
     Separador
-    #1_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
+    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
       h2 1.1 Evaluación financiera
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
@@ -213,7 +213,8 @@
           span Valoración VNA
         .tabla-b.color-acento-contenido.ttbl2
           table
-            caption Nota. Elaboración propia (2021).
+            caption 
+              p.mb-0 Nota. Elaboración propia (2021).
             tr
               th.t1 Valor
               th.t2 Significado
@@ -240,7 +241,8 @@
           span Flujo Neto para cálculo del VNA
         .tabla-b.color-acento-contenido.ttbl2
           table
-            caption Nota. Elaboración propia (2021).
+            caption 
+              p.mb-0 Nota. Elaboración propia (2021).
 
             tr
               th
@@ -329,7 +331,8 @@
           span Valoración VNA
         .tabla-b.color-acento-contenido.ttbl2
           table
-            caption Nota. Elaboración propia (2021).
+            caption
+              p.mb-0 Nota. Elaboración propia (2021).
             tr
               th.t11(colspan='2') Valoración VNA
             tr
@@ -353,7 +356,8 @@
           span Flujo Neto para cálculo de la TIR
         .tabla-b.color-acento-contenido.ttbl2
           table
-            caption Nota. Elaboración propia (2021).
+            caption 
+              p.mb-0 Nota. Elaboración propia (2021).
 
             tr
               th
@@ -586,7 +590,7 @@
     p Después de haber desarrollado los respectivos indicadores se procede a efectuar los análisis y la toma decisiones.
 
     Separador
-    #1_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
+    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
       h2 1.2 Evaluación económica y social
 
     .row.justify-content-center.align-items-center.mb-5
