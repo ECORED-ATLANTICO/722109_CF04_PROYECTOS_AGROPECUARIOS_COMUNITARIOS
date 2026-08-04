@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-12.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="La figura presenta la estructura del componente formativo Evaluación financiera y plan de acción estratégico de un proyecto agropecuario. Esta organiza los contenidos en cuatro ejes principales: evaluación del proyecto, recolección de la información, diagnóstico y plan de acción estratégico. Cada eje incluye sus respectivos temas y subtemas, mostrando la secuencia lógica y la relación entre los diferentes contenidos que conforman el proceso de análisis, planificación y gestión de un proyecto agropecuario.")
+          img(src="@/assets/curso/sintesis.svg", alt="La figura presenta la estructura del componente formativo Evaluación financiera y plan de acción estratégico de un proyecto agropecuario. Esta organiza los contenidos en cuatro ejes principales: evaluación del proyecto, recolección de la información, diagnóstico y plan de acción estratégico. Cada eje incluye sus respectivos temas y subtemas, mostrando la secuencia lógica y la relación entre los diferentes contenidos que conforman el proceso de análisis, planificación y gestión de un proyecto agropecuario.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

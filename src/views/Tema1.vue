@@ -150,7 +150,7 @@
               img.mb-3.d-block.d-lg-none(src='@/assets/curso/temas/tema1/img13.svg', alt='En la figura se detalla el proceso de evaluación financiera que incluye el flujo de inversiones, el flujo de producción, la adopción de criterios TIR, VPN, B/C y el análisis.')
               figcaption Nota. Elaboración propia.
         
-    p.mb-4 La figura 2 esquematiza el proceso de la evaluación financiera, la cual parte de un flujo de inversiones, ya sean de índole público o privado, pasando por una evaluación de indicadores financieros (VAN, TIR, R B/C), finalizando con el análisis respectivo, que permita tomar la decisión de llevar a cabo o no la ejecución del proyecto.
+        p.mb-4 La figura 2 esquematiza el proceso de la evaluación financiera, la cual parte de un flujo de inversiones, ya sean de índole público o privado, pasando por una evaluación de indicadores financieros (VAN, TIR, R B/C), finalizando con el análisis respectivo, que permita tomar la decisión de llevar a cabo o no la ejecución del proyecto.
 
    
     .row.justify-content-center.align-items-center.mb-3
