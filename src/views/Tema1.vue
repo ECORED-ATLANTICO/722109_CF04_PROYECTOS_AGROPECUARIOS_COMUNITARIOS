@@ -629,7 +629,7 @@
         figure.mb-0
           img(src="@/assets/curso/temas/tema1/img39.svg", alt="En la figura se detalla las diferencias entre el análisis económico y social vs análisis financiero.").d-none.d-lg-block.d-md-none
           img(src="@/assets/curso/temas/tema1/img40.svg", alt="En la figura se detalla las diferencias entre el análisis económico y social vs análisis financiero.").d-block.d-lg-none.d-md-block
-          figcaption Nota. Elaboración propia.
+          figcaption Nota, SENA (2026).
    
     .row.justify-content-center.align-items-center(data-aos="fade-left")
       .col-lg-8.p-2
