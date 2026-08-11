@@ -280,35 +280,35 @@
           .row.justify-content-center.align-items-center.p-4
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 1
-              p Para calcular lo primero que deben hacer es pasar los datos al archivo en Excel, como se muestra en la siguiente figura:
+              p Para calcular lo primero que deben hacer es pasar los datos al archivo en Excel:
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema1/img19.png')
           .row.justify-content-center.align-items-center
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 2
-              p Después de tener los datos en el archivo de Excel se procede a digitar igual seguido de la palabra VAN y se le da clic en insertar función, como se muestra en la siguiente figura:
+              p Después de tener los datos en el archivo de Excel, se da clic en insertar función y se procede a buscar la palabra VNA:
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema1/img20.png')
           .row.justify-content-center.align-items-center
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 3
-              p Ahora se debe dar clic en insertar función aparece el siguiente cuadro de diálogo:
+              p Ahora se debe dar doble clic para insertar la función y aparece el siguiente cuadro de diálogo:
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema1/img21.png')
           .row.justify-content-center.align-items-center
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 4
-              p En la celda de Tasa se refiere a la tasa de oportunidad, la celda de valores, corresponden a los flujos netos, como se muestra en la presente figura:
+              p En la celda de Tasa se refiere a la tasa de oportunidad, la celda de valores, corresponden a los flujos netos:
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema1/img22.png')
           .row.justify-content-center.align-items-center
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 5
-              p Finalmente, al resultado se le suma el flujo neto de la inversión, correspondiente al periodo 0:
+              p Finalmente, al digitar los datos, dar clic en aceptar, al resultado se le suma el flujo neto de la inversión, correspondiente al periodo 0:
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema1/img23.png')
@@ -394,35 +394,35 @@
           .row.justify-content-center.align-items-center.p-4
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 1
-              p Para calcular lo primero que deben hacer es pasar los datos al archivo en Excel, como se muestra en la siguiente figura:
+              p Para calcular lo primero que deben hacer es pasar los datos al archivo en Excel:
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema1/img25.png')
           .row.justify-content-center.align-items-center
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 2
-              p Después de tener los datos en el archivo de Excel se procede a digitar igual seguido de la palabra TIR y se le da clic en insertar función, como lo muestra la figura:
+              p Después de tener los datos en el archivo de Excel, se debe dar clic en insertar función: 
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema1/img26.png')
           .row.justify-content-center.align-items-center
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 3
-              p Después de dar clic en insertar función aparece el siguiente cuadro de diálogo:
+              p Después de dar clic en insertar función, se procede a buscar la palabra TIR, dar doble clic y aparece el siguiente cuadro de diálogo:
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema1/img27.png')
           .row.justify-content-center.align-items-center
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 4
-              p En la celda de Valores se deben seleccionar todos los flujos netos incluyendo el periodo 0, como se muestra en la presente figura:
+              p En la celda de Valores se deben seleccionar todos los flujos netos incluyendo el periodo 0:  
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema1/img28.png')
           .row.justify-content-center.align-items-center
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 5
-              p Finalmente, se le da enter y se obtiene el resultado correspondiente a la TIR, como se muestra en la siguiente figura:
+              p Finalmente, se le da Enter y se obtiene el resultado correspondiente a la TIR,
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema1/img29.png')
