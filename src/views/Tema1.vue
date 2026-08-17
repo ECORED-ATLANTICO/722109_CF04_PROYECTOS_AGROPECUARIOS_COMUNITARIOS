@@ -9,7 +9,7 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in")
       .col-lg-8      
-        p La evaluación de un proyecto se fundamenta en la necesidad de establecer las técnicas para determinar lo que está sucediendo y cómo ha ocurrido, para apuntar hacia lo que encierra el futuro si no se interviene, por lo que la medición de factores concurrentes y coadyuvantes, permite deﬁnir la factibilidad de ejecución del proyecto (Graterol, 2010). 
+        p La evaluación de un proyecto se fundamenta en la necesidad de establecer las técnicas para determinar lo que está sucediendo y cómo ha ocurrido, para apuntar hacia lo que encierra el futuro si no se interviene, por lo que la medición de factores concurrentes y coadyuvantes permite deﬁnir la factibilidad de ejecución del proyecto (Graterol, 2010). 
         p La evaluación de proyectos puede hacerse desde dos puntos de vista que no son opuestos, pero sí distintos: el primero corresponde al criterio privado y el segundo es el criterio social, de acuerdo con la perspectiva que se encamine la evaluación, dependerá la decisión que se tome en relación con la realización del proyecto. 
         p Dicho lo anterior, la evaluación de un proyecto signiﬁca analizar el proceso de transformación, de cambio o de mudanza y valorar su signiﬁcado; es por ello que, en este análisis, es necesario obtener y comparar magnitudes, someterlas a juicio y conseguir resultados concretos que señalen cómo se debe proseguir en la transformación de una situación y a costa de qué esfuerzo (Córdoba 2011).
       .col-lg-4.col-md-8
@@ -146,8 +146,8 @@
         .row.justify-content-center.align-items-center
           .col-lg-12
             figure.mb-5
-              img.mb-3.d-none.d-lg-block(src='@/assets/curso/temas/tema1/img12.svg', alt='En la figura se detalla el proceso de evaluación financiera que incluye el flujo de inversiones, el flujo de producción, la adopción de criterios TIR, VPN, B/C y el análisis.')
-              img.mb-3.d-block.d-lg-none(src='@/assets/curso/temas/tema1/img13.svg', alt='En la figura se detalla el proceso de evaluación financiera que incluye el flujo de inversiones, el flujo de producción, la adopción de criterios TIR, VPN, B/C y el análisis.')
+              img.mb-3.d-none.d-lg-block(src='@/assets/curso/temas/tema1/img12.svg', alt='En la figura se detalla el proceso de evaluación financiera que incluye el flujo de inversiones, el flujo de producción, la adopción de criterios TIR, VPN, B/C  y el análisis.')
+              img.mb-3.d-block.d-lg-none(src='@/assets/curso/temas/tema1/img13.svg', alt='En la figura se detalla el proceso de evaluación financiera que incluye el flujo de inversiones, el flujo de producción, la adopción de criterios TIR, VPN, B/C  y el análisis.')
               figcaption Nota. Elaboración propia.
         
         p.mb-4 La figura 2 esquematiza el proceso de la evaluación financiera, la cual parte de un flujo de inversiones, ya sean de índole público o privado, pasando por una evaluación de indicadores financieros (VAN, TIR, R B/C), finalizando con el análisis respectivo, que permita tomar la decisión de llevar a cabo o no la ejecución del proyecto.
@@ -182,7 +182,7 @@
               img.image(src='@/assets/curso/temas/tema1/icon_subt.svg', alt='Imagen decorativa')
 
     .row.justify-content-center.align-items-center(data-aos="fade-left")
-      p El Valor Presente Neto es el valor que resulta de traer los flujos netos al valor presente con la tasa de interés de oportunidad y restarle las inversiones; esta función se puede calcular en el programa de Office Excel, con la función financiera llamada VNA.
+      p El Valor Presente Neto es el valor que resulta de traer los flujos netos al valor presente con la tasa de interés de oportunidad y restarle las inversiones; esta función se puede calcular en el programa de Microsoft Excel, con la función financiera llamada VNA.
       p Para interpretar el Valor Presente Neto se dice que:
 
     .row.justify-content-center.align-items-center(data-aos="zoom-in")
@@ -365,7 +365,7 @@
               th.t5 Periodo 1
               th.t6 Periodo 2
               th.t7 Periodo 3
-              th.t8(rowspan='5') Tasa de oportunidad 18%.
+              th.t8(rowspan='5') Tasa de oportunidad 18 %.
             tr
               td Inversión inicial
               td $ 10.000.000
@@ -587,7 +587,7 @@
                 img(src='@/assets/curso/temas/tema1/img38.png') 
 
     
-    p Después de haber desarrollado los respectivos indicadores se procede a efectuar los análisis y la toma decisiones.
+    p Después de haber desarrollado los respectivos indicadores se procede a efectuar los análisis y la toma de decisiones.
 
     Separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
@@ -627,8 +627,8 @@
           h5 Figura 3.
           span Diferencias análisis económico y social vs. análisis financiero
         figure.mb-0
-          img(src="@/assets/curso/temas/tema1/img39.svg", alt="En la figura se detalla las diferencias entre el análisis económico y social vs análisis financiero.").d-none.d-lg-block.d-md-none
-          img(src="@/assets/curso/temas/tema1/img40.svg", alt="En la figura se detalla las diferencias entre el análisis económico y social vs análisis financiero.").d-block.d-lg-none.d-md-block
+          img(src="@/assets/curso/temas/tema1/img39.svg", alt="La figura describe una comparación entre el análisis económico y social y el análisis financiero de un proyecto. El análisis económico y social evalúa aspectos como la productividad, la rentabilidad, el crecimiento económico, el impacto en la sociedad, la distribución del ingreso y la contribución del proyecto al desarrollo económico. El análisis financiero se centra en el rendimiento del capital, el beneficio para los inversionistas, la distribución de utilidades, los precios de mercado y la capacidad del proyecto para generar ganancias.").d-none.d-lg-block.d-md-none
+          img(src="@/assets/curso/temas/tema1/img40.svg", alt="La figura describe una comparación entre el análisis económico y social y el análisis financiero de un proyecto. El análisis económico y social evalúa aspectos como la productividad, la rentabilidad, el crecimiento económico, el impacto en la sociedad, la distribución del ingreso y la contribución del proyecto al desarrollo económico. El análisis financiero se centra en el rendimiento del capital, el beneficio para los inversionistas, la distribución de utilidades, los precios de mercado y la capacidad del proyecto para generar ganancias.").d-block.d-lg-none.d-md-block
           figcaption Nota, SENA (2026).
    
     .row.justify-content-center.align-items-center(data-aos="fade-left")
