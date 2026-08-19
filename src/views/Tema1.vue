@@ -283,35 +283,35 @@
               p Para calcular lo primero que deben hacer es pasar los datos al archivo en Excel:
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema1/img19.png')
+                img(src='@/assets/curso/temas/tema1/img19.png', alt="En este paso inicial, para calcular el valor presente neto se pasan los datos a Excel.")
           .row.justify-content-center.align-items-center
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 2
               p Después de tener los datos en el archivo de Excel, se da clic en insertar función y se procede a buscar la palabra VNA:
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema1/img20.png')
+                img(src='@/assets/curso/temas/tema1/img20.png', alt='En este paso se procede dar clic en insertar función y se procede a buscar la palabra VNA.')
           .row.justify-content-center.align-items-center
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 3
               p Ahora se debe dar doble clic para insertar la función y aparece el siguiente cuadro de diálogo:
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema1/img21.png')
+                img(src='@/assets/curso/temas/tema1/img21.png', alt='Al dar doble clic se inserta la función y aparece un cuadro de diálogo.')
           .row.justify-content-center.align-items-center
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 4
               p En la celda de Tasa se refiere a la tasa de oportunidad, la celda de valores, corresponden a los flujos netos:
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema1/img22.png')
+                img(src='@/assets/curso/temas/tema1/img22.png', alt='Se detalla en este paso, en la celda de Tasa, se refiere a la tasa de oportunidad, en este caso 18 %  y en la celda de valores corresponde a los flujos netos del periodo 1 a periodo 3.')
           .row.justify-content-center.align-items-center
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 5
               p Finalmente, al digitar los datos, dar clic en aceptar, al resultado se le suma el flujo neto de la inversión, correspondiente al periodo 0:
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema1/img23.png')
+                img(src='@/assets/curso/temas/tema1/img23.png', alt='El resultado se le suma el flujo neto correspondiente al período 0.')
 
     .row.justify-content-center.align-items-center.mb-3
       .col-md-12.col-lg-12
@@ -397,35 +397,35 @@
               p Para calcular lo primero que deben hacer es pasar los datos al archivo en Excel:
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema1/img25.png')
+                img(src='@/assets/curso/temas/tema1/img25.png', alt='El paso a seguir para calcular la tasa interna de retorno, primero se debe pasar los datos al archivo de Excel.')
           .row.justify-content-center.align-items-center
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 2
               p Después de tener los datos en el archivo de Excel, se debe dar clic en insertar función: 
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema1/img26.png')
+                img(src='@/assets/curso/temas/tema1/img26.png', alt='En este paso se procede a dar clic en insertar función.')
           .row.justify-content-center.align-items-center
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 3
               p Después de dar clic en insertar función, se procede a buscar la palabra TIR, dar doble clic y aparece el siguiente cuadro de diálogo:
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema1/img27.png')
+                img(src='@/assets/curso/temas/tema1/img27.png', alt='A continuación se da doble clic en insertar función, se procede a buscar la palabra TIR  y aparece el cuadro de diálogo.')
           .row.justify-content-center.align-items-center
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 4
               p En la celda de Valores se deben seleccionar todos los flujos netos incluyendo el periodo 0:  
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema1/img28.png')
+                img(src='@/assets/curso/temas/tema1/img28.png', alt='En esta figura se ilustra la celda valores, se debe seleccionar los flujos netos incluyendo el periodo 0.')
           .row.justify-content-center.align-items-center
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 5
               p Finalmente, se le da Enter y se obtiene el resultado correspondiente a la TIR,
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema1/img29.png')
+                img(src='@/assets/curso/temas/tema1/img29.png', alt='Y para finalizar se ilustra en la figura que se da Enter y se obtiene el resultado.')
 
 
     .row.justify-content-center.align-items-center.mb-3
@@ -542,49 +542,49 @@
               p Para calcular lo primero que deben hacer es pasar los datos al archivo en Excel, como se muestra en la siguiente figura:
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema1/img32.png')
+                img(src='@/assets/curso/temas/tema1/img32.png', alt='Como primer paso para calcular la relación beneficio-costo, se debe pasar los datos a Excel.')
           .row.justify-content-center.align-items-center.p-4
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 2
               p Se procede a efectuar el VNA de los ingresos como se muestra a continuación:
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema1/img33.png')
+                img(src='@/assets/curso/temas/tema1/img33.png', alt='Se procede a efectuar el VNA de los ingresos.')
           .row.justify-content-center.align-items-center.p-4
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 3
               p Se oprime la celda enter y se obtiene el resultado respectivo.
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema1/img34.png')
+                img(src='@/assets/curso/temas/tema1/img34.png', alt='Se oprime el enter y se obtiene el resultado.')
           .row.justify-content-center.align-items-center.p-4
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 4
               p Se procede a efectuar el mismo procedimiento con los egresos.
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema1/img35.png')
+                img(src='@/assets/curso/temas/tema1/img35.png', alt='En este paso se efectúa el mismo procedimiento con los egresos.')
           .row.justify-content-center.align-items-center.p-4
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 5
               p Al darle enter se obtiene el valor del VNA de los egresos.
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema1/img36.png')
+                img(src='@/assets/curso/temas/tema1/img36.png', alt='A continuación se da enter y se obtiene el valor del VNA de los egresos.')
           .row.justify-content-center.align-items-center.p-4
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 6
               p  Luego se procede a sumar el VNA de los egresos con la inversión.
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema1/img37.png') 
+                img(src='@/assets/curso/temas/tema1/img37.png', alt='A continuación se suma el VNA de los egresos con la inversión.') 
           .row.justify-content-center.align-items-center.p-4
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 7
               p Finalmente, la R B/C, se determina dividiendo el VNA de los ingresos con el VNA de los egresos + inversión.
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema1/img38.png') 
+                img(src='@/assets/curso/temas/tema1/img38.png', alt='Y para finalizar se divide el VNA  de los ingresos con el VNA  de los egresos mas la innversión.') 
 
     
     p Después de haber desarrollado los respectivos indicadores se procede a efectuar los análisis y la toma de decisiones.
