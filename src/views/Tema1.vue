@@ -9,9 +9,9 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in")
       .col-lg-8      
-        p La evaluación de un proyecto se fundamenta en la necesidad de establecer las técnicas para determinar lo que está sucediendo y cómo ha ocurrido, para apuntar hacia lo que encierra el futuro si no se interviene, por lo que la medición de factores concurrentes y coadyuvantes permite deﬁnir la factibilidad de ejecución del proyecto (Graterol, 2010). 
+        p La evaluación de un proyecto se fundamenta en la necesidad de establecer las técnicas para determinar lo que está sucediendo y cómo ha ocurrido, para apuntar hacia lo que encierra el futuro si no se interviene, por lo que la medición de factores concurrentes y coadyuvantes permite definir la factibilidad de ejecución del proyecto (Graterol, 2010). 
         p La evaluación de proyectos puede hacerse desde dos puntos de vista que no son opuestos, pero sí distintos: el primero corresponde al criterio privado y el segundo es el criterio social, de acuerdo con la perspectiva que se encamine la evaluación, dependerá la decisión que se tome en relación con la realización del proyecto. 
-        p Dicho lo anterior, la evaluación de un proyecto signiﬁca analizar el proceso de transformación, de cambio o de mudanza y valorar su signiﬁcado; es por ello que, en este análisis, es necesario obtener y comparar magnitudes, someterlas a juicio y conseguir resultados concretos que señalen cómo se debe proseguir en la transformación de una situación y a costa de qué esfuerzo (Córdoba 2011).
+        p Dicho lo anterior, la evaluación de un proyecto significa analizar el proceso de transformación, de cambio o de mudanza y valorar su significado; es por ello que, en este análisis, es necesario obtener y comparar magnitudes, someterlas a juicio y conseguir resultados concretos que señalen cómo se debe proseguir en la transformación de una situación y a costa de qué esfuerzo (Córdoba 2011).
       .col-lg-4.col-md-8
         figure
           img(src='@/assets/curso/temas/tema1/img01.png', alt='')
@@ -36,7 +36,7 @@
           .crd_02__icon.dan
             img(src="@/assets/curso/temas/tema1/img03.svg", alt="alt")          
           .crd_02__txt
-            p.text-bold Examinar los proyectos vigentes y deﬁnir con precisión lo que se pretende con la evaluación.
+            p.text-bold Examinar los proyectos vigentes y definir con precisión lo que se pretende con la evaluación.
       .col-lg-3
         .crd_02.mb-5
           .crd_02__icon.dan
@@ -48,11 +48,11 @@
           .crd_02__icon.dan
             img(src="@/assets/curso/temas/tema1/img05.svg", alt="alt")          
           .crd_02__txt
-            p.text-bold Determinar la eﬁcacia de las actividades utilizadas y eﬁciencia de los recursos, en función de los indicadores, de la cantidad empleada de los mismos y de sus costos.            
+            p.text-bold Determinar la eficacia de las actividades utilizadas y eficiencia de los recursos, en función de los indicadores, de la cantidad empleada de los mismos y de sus costos.            
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in")
       .col-lg-12
-        p Se considera que el ciclo de vida de un proyecto, finaliza en el momento que se efectúan los desembolsos de efectivo, o sea, cuando se habla de la etapa de ejecución, sin embargo, la vida de un proyecto consta de otras etapas, como se muestra en la figura 1, resaltando además, que las fases del proyecto y las actividades de evaluación se relacionan. 
+        p Se considera que el ciclo de vida de un proyecto, finaliza en el momento que se efectúan los desembolsos de efectivo, o sea, cuando se habla de la etapa de ejecución, sin embargo, la vida de un proyecto consta de otras etapas, como se muestra en la figura 1, resaltando, además, que las fases del proyecto y las actividades de evaluación se relacionan. 
 
     .row.justify-content-center.align-items-center(data-aos="fade-right")
       .col-lg-10
@@ -136,13 +136,13 @@
           img(src='@/assets/curso/temas/tema1/img11.png', alt='')
       .col-lg-9.fnd-2.p-4
         p La evaluación financiera de proyectos puede considerarse como el ejercicio mediante el cual se intentan identificar los costos y beneficios de un proyecto, con la finalidad de tomar la decisión más acertada.
-        p La evaluación financiera, permite identificar si el proyecto es viable, dada sus inversiones, sus ingresos y egresos durante un periodo de tiempo, reconociendo sus pérdidas o ganancias; esta evaluación se efectúa a través de criterios como el Valor Presente Neto (VPN), la Tasa Interna de Retorno (TIR) y la relación Costo – Beneficio, esto lo podemos apreciar en la figura que se propone a continuación:
+        p La evaluación financiera, permite identificar si el proyecto es viable, dada sus inversiones, sus ingresos y egresos durante un periodo de tiempo, reconociendo sus pérdidas o ganancias; esta evaluación se efectúa a través de criterios como el valor presente neto (VPN), la Tasa Interna de Retorno (TIR) y la relación Costo – Beneficio, esto lo podemos apreciar en la figura que se propone a continuación:
 
     .row.justify-content-center.align-items-center.mb-lg-4(data-aos="fade-right")
       .col-lg-10
         .titulo-sexto.color-acento-botones
           h5 Figura 2.
-          span Proceso evaluación financiera
+          span Proceso de evaluación financiera
         .row.justify-content-center.align-items-center
           .col-lg-12
             figure.mb-5
@@ -169,7 +169,7 @@
         p.mb-0 A la hora de hablar de indicadores financieros, es importante decir, que un indicador es aquella variable que intenta medir de forma cuantitativa o cualitativa, características o comportamientos reales.
         p En el momento de analizar si es pertinente realizar o no un proyecto de inversión, es necesario utilizar ciertos indicadores financieros, los cuales permitirán establecer la viabilidad del proyecto. 
         p Para efectuar un correcto análisis de la situación financiera del proyecto, es necesario efectuar los tres indicadores propuestos, aunque estos de manera individual tienen sus pros y sus contras, analizados de manera conjunta permiten tomar decisiones basadas en los resultados.
-        p Los indicadores financieros que se utilizan con mayor frecuencia para la evaluación de proyectos de inversión son: Valor Presente Neto (VAN), Tasa Interna de Retorno (TIR) y la Relación Costo - Beneficio. 
+        p Los indicadores financieros que se utilizan con mayor frecuencia para la evaluación de proyectos de inversión son: Valor Actual Neto (VAN), Tasa Interna de Retorno (TIR) y la Relación Costo - Beneficio. 
 
 
 
@@ -183,7 +183,7 @@
 
     .row.justify-content-center.align-items-center(data-aos="fade-left")
       p El Valor Presente Neto es el valor que resulta de traer los flujos netos al valor presente con la tasa de interés de oportunidad y restarle las inversiones; esta función se puede calcular en el programa de Microsoft Excel, con la función financiera llamada VNA.
-      p Para interpretar el Valor Presente Neto se dice que:
+      p Para interpretar el valor presente neto se dice que:
 
     .row.justify-content-center.align-items-center(data-aos="zoom-in")
       .col-lg-3
@@ -191,19 +191,19 @@
           .crd_02__icon.dan
             img(src="@/assets/curso/temas/tema1/img15.svg", alt="alt")          
           .crd_02__txt
-            h6.mb-0 Si el Valor Presente Neto es mayor a cero se acepta el proyecto.
+            h6.mb-0 Si el valor presente neto es mayor a cero se acepta el proyecto.
       .col-lg-3
         .crd_02.mb-5
           .crd_02__icon.dan
             img(src="@/assets/curso/temas/tema1/img16.svg", alt="alt")          
           .crd_02__txt
-            h6.mb-0 Si el Valor Presente Neto es menor a cero se rechaza el proyecto.
+            h6.mb-0 Si el valor presente neto es menor a cero se rechaza el proyecto.
       .col-lg-4
         .crd_02.mb-5
           .crd_02__icon.dan
             img(src="@/assets/curso/temas/tema1/img17.svg", alt="alt")          
           .crd_02__txt
-            h6.mb-0 Si el Valor Presente Neto es igual a cero se es indiferente el proyecto y quedará a criterio del evaluador si lo acepta o lo rechaza.            
+            h6.mb-0 Si el valor presente neto es igual a cero se es indiferente el proyecto y quedará a criterio del evaluador si lo acepta o lo rechaza.            
 
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
@@ -221,17 +221,17 @@
               th.t3 Decisión 
             tr
               td VNA > 0
-              td La inversión producirá ganancias
-              td Se acepta el proyecto 
+              td La inversión producirá ganancias.
+              td Se acepta el proyecto.
             tr
               td VNA < 0
-              td La inversión no producirá ganancias
-              td Se rechaza el proyecto 
+              td La inversión no producirá ganancias.
+              td Se rechaza el proyecto.
             tr
               td VNA = 0
-              td La inversión no producirá ni ganancias ni pérdidas
+              td La inversión no producirá ni ganancias ni pérdidas.
               td
-                | Se es indiferente el proyecto, y la decisión de si se acepta o se rechaza, deberá ser tomada basada en otros criterios
+                | Se es indiferente el proyecto, y la decisión de si se acepta o se rechaza, deberá ser tomada basada en otros criterios.
 
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
@@ -250,15 +250,15 @@
               th.t5 Periodo 1
               th.t6 Periodo 2
               th.t7 Periodo 3
-              th.t8(rowspan='5') Tasa de oportunidad 18 %
+              th.t8(rowspan='5') Tasa de oportunidad 18 %.
             tr
-              td Inversión inicial
+              td Inversión inicial.
               td $ 10.000.000
               td                
               td                
               td                
             tr
-              td Flujo neto
+              td Flujo neto.
               td $ -10.000.000
               td $ 1.200.000
               td $ 6.500.000
@@ -339,14 +339,14 @@
               th.t2 Valor 
               th.t12 Decisión
             tr
-              td TIR > tasa de interés de oportunidad	
-              td Se acepta el proyecto
+              td TIR > tasa de interés de oportunidad.	
+              td Se acepta el proyecto.
             tr
-              td TIR < tasa de interés de oportunidad	
-              td Se rechaza el proyecto              
+              td TIR < tasa de interés de oportunidad.	
+              td Se rechaza el proyecto.              
             tr
-              td TIR = tasa de interés de oportunidad	
-              td Se es indiferente frente al proyecto, y la decisión de si se acepta o se rechaza, deberá ser tomada basada en otros criterios          
+              td TIR = tasa de interés de oportunidad.	
+              td Se es indiferente frente al proyecto, y la decisión de si se acepta o se rechaza, deberá ser tomada basada en otros criterios.          
 
     p A continuación, se puede visualizar un ejemplo de la Tasa Interna de Retorno en una hoja de cálculo:
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
@@ -367,13 +367,13 @@
               th.t7 Periodo 3
               th.t8(rowspan='5') Tasa de oportunidad 18 %.
             tr
-              td Inversión inicial
+              td Inversión inicial.
               td $ 10.000.000
               td                
               td                
               td                
             tr
-              td Flujo neto
+              td Flujo neto.
               td $ -10.000.000
               td $ 1.200.000
               td $ 6.500.000
@@ -401,7 +401,7 @@
           .row.justify-content-center.align-items-center
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 2
-              p Después de tener los datos en el archivo de Excel, se debe dar clic en insertar función: 
+              p Después de tener los datos en el archivo de Excel, se debe dar clic en insertar función:
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema1/img26.png', alt='En este paso se procede a dar clic en insertar función.')
@@ -422,7 +422,7 @@
           .row.justify-content-center.align-items-center
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 5
-              p Finalmente, se le da Enter y se obtiene el resultado correspondiente a la TIR,
+              p Finalmente, se le da Enter y se obtiene el resultado correspondiente a la TIR:
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema1/img29.png', alt='Y para finalizar se ilustra en la figura que se da Enter y se obtiene el resultado.')
@@ -433,13 +433,13 @@
         //- Subtitulo
         .align-items-center.justify-content-star.mb-2
           .div(data-aos="fade-left")
-            h3.subtitle.position-relative Relación beneficio - costo  R B/C
+            h3.subtitle.position-relative Relación beneficio - costo R B/C
               img.image(src='@/assets/curso/temas/tema1/icon_subt.svg', alt='Imagen decorativa')
 
       .col-lg-8
         p La relación beneficio - costo, es la relación presente de los flujos netos a la inversión inicial. En la R B/C el VAN de los ingresos es mayor al VAN de los egresos, sumando la inversión, es superior a 1 en un periodo de tiempo con una tasa de oportunidad. 
         p Dado lo anterior, se puede decir que los ingresos son suficientes para cubrir todos los costos y además dan un excedente por cada peso invertido del restante del valor de 1, ante esta situación se habla de un proyecto viable financieramente.
-        p A continuación, se puede visualizar un ejemplo de la Relación beneficio - costo en una hoja de cálculo:
+        p A continuación, se puede visualizar un ejemplo de la relación beneficio - costo en una hoja de cálculo:
       .col-lg-4.col-md-10
         figure.p-4
           img(src='@/assets/curso/temas/tema1/img30.png')
@@ -505,23 +505,23 @@
                   td.t2 $ 10.000.000
               table.mt-2              
                 tr
-                  th.t3 Tasa de descuento  
+                  th.t3 Tasa de descuento.  
                   td.t2 18 %
 
             .tabla-b.color-acento-contenido.mb-3.text-color-12263F.ttbl4
               table
                 tr
-                  th.t2 VNA Ingresos
-                  td          
+                  th.t2 VNA Ingresos.
+                  td -          
                 tr
-                  th.t2 VNA Egresos	  
-                  td          
+                  th.t2 VNA Egresos.	  
+                  td -          
                 tr
-                  th.t2 VNA + Inversión	  
-                  td          
+                  th.t2 VNA + Inversión.	  
+                  td -          
                 tr
-                  th.t5 Beneficio - Costo	  
-                  td          
+                  th.t5 Beneficio – Costo.	  
+                  td -          
       figcaption.mt-4 Nota. Elaboración propia (2021).
 
 
@@ -539,49 +539,49 @@
           .row.justify-content-center.align-items-center.p-4
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 1
-              p Para calcular lo primero que deben hacer es pasar los datos al archivo en Excel, como se muestra en la siguiente figura:
+              p Para calcular lo primero que deben hacer es pasar los datos al archivo en Excel:
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema1/img32.png', alt='Como primer paso para calcular la relación beneficio-costo, se debe pasar los datos a Excel.')
           .row.justify-content-center.align-items-center.p-4
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 2
-              p Se procede a efectuar el VNA de los ingresos como se muestra a continuación:
+              p Se procede a efectuar el VNA de los ingresos como se describe a continuación:
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema1/img33.png', alt='Se procede a efectuar el VNA de los ingresos.')
           .row.justify-content-center.align-items-center.p-4
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 3
-              p Se oprime la celda enter y se obtiene el resultado respectivo.
+              p Se oprime la tecla Enter y se obtiene el resultado respectivo:
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema1/img34.png', alt='Se oprime el enter y se obtiene el resultado.')
           .row.justify-content-center.align-items-center.p-4
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 4
-              p Se procede a efectuar el mismo procedimiento con los egresos.
+              p Se procede a efectuar el mismo procedimiento con los egresos:
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema1/img35.png', alt='En este paso se efectúa el mismo procedimiento con los egresos.')
           .row.justify-content-center.align-items-center.p-4
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 5
-              p Al darle enter se obtiene el valor del VNA de los egresos.
+              p Al darle Enter se obtiene el valor del VNA de los Egresos:
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema1/img36.png', alt='A continuación se da enter y se obtiene el valor del VNA de los egresos.')
           .row.justify-content-center.align-items-center.p-4
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 6
-              p  Luego se procede a sumar el VNA de los egresos con la inversión.
+              p Luego se procede a sumar el VNA de los Egresos con la inversión:
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema1/img37.png', alt='A continuación se suma el VNA de los egresos con la inversión.') 
           .row.justify-content-center.align-items-center.p-4
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 7
-              p Finalmente, la R B/C, se determina dividiendo el VNA de los ingresos con el VNA de los egresos + inversión.
+              p Finalmente, la R B/C, se determina dividiendo el VNA de los Ingresos con el VNA de los Egresos + Inversión:
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema1/img38.png', alt='Y para finalizar se divide el VNA  de los ingresos con el VNA  de los egresos mas la innversión.') 
@@ -619,7 +619,7 @@
             h3.subtitle.position-relative Diferencias entre el análisis financiero y el económico y social
               img.image(src='@/assets/curso/temas/tema1/icon_subt.svg', alt='Imagen decorativa')
 
-    p.mb-5 De acuerdo a lo evidenciado en la evaluación de un proyecto, se denotan diferencias significativas entre la evaluación financiera y la evaluación económica y social, como se muestra a continuación :
+    p.mb-5 De acuerdo a lo evidenciado en la evaluación de un proyecto, se denotan diferencias significativas entre la evaluación financiera y la evaluación económica y social, como se muestra a continuación:
    
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10
@@ -629,7 +629,7 @@
         figure.mb-0
           img(src="@/assets/curso/temas/tema1/img39.svg", alt="La figura describe una comparación entre el análisis económico y social y el análisis financiero de un proyecto. El análisis económico y social evalúa aspectos como la productividad, la rentabilidad, el crecimiento económico, el impacto en la sociedad, la distribución del ingreso y la contribución del proyecto al desarrollo económico. El análisis financiero se centra en el rendimiento del capital, el beneficio para los inversionistas, la distribución de utilidades, los precios de mercado y la capacidad del proyecto para generar ganancias.").d-none.d-lg-block.d-md-none
           img(src="@/assets/curso/temas/tema1/img40.svg", alt="La figura describe una comparación entre el análisis económico y social y el análisis financiero de un proyecto. El análisis económico y social evalúa aspectos como la productividad, la rentabilidad, el crecimiento económico, el impacto en la sociedad, la distribución del ingreso y la contribución del proyecto al desarrollo económico. El análisis financiero se centra en el rendimiento del capital, el beneficio para los inversionistas, la distribución de utilidades, los precios de mercado y la capacidad del proyecto para generar ganancias.").d-block.d-lg-none.d-md-block
-          figcaption Nota, SENA (2026).
+          figcaption Nota. SENA, (2026).
    
     .row.justify-content-center.align-items-center(data-aos="fade-left")
       .col-lg-8.p-2

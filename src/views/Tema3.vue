@@ -40,12 +40,12 @@
       .col-lg-12
         .titulo-sexto.color-acento-botones
           h5 Figura 4.
-          span Características del diagnostico
+          span Características del diagnóstico
         .row.justify-content-center.align-items-center
           .col-lg-12
             figure.mb-3
-              img.mb-3.d-none.d-lg-block(src='@/assets/curso/temas/tema3/img_3.svg', alt='La figura muestra las características del diagnóstico en proyectos agropecuarios comunitarios. En el centro aparece un equipo de trabajo reunido en un entorno rural, analizando información del proyecto. Alrededor, seis recuadros presentan las principales características del diagnóstico: objetivo, integral, participativo, sistemático, analítico y orientado a la mejora, cada una acompañada de un ícono representativo y una breve explicación que resalta su aporte al análisis, la toma de decisiones y el fortalecimiento del proyecto.')
-              img.mb-3.d-block.d-lg-none(src='@/assets/curso/temas/tema3/img_4.svg', alt='La figura muestra las características del diagnóstico en proyectos agropecuarios comunitarios. En el centro aparece un equipo de trabajo reunido en un entorno rural, analizando información del proyecto. Alrededor, seis recuadros presentan las principales características del diagnóstico: objetivo, integral, participativo, sistemático, analítico y orientado a la mejora, cada una acompañada de un ícono representativo y una breve explicación que resalta su aporte al análisis, la toma de decisiones y el fortalecimiento del proyecto.')
+              img.mb-3.d-none.d-lg-block(src='@/assets/curso/temas/tema3/img_3.svg', alt='La figura muestra las características del diagnóstico en proyectos agropecuarios comunitarios. Se presentan seis recuadros con las principales características del diagnóstico: objetivo, integral, participativo, sistemático, analítico y orientado a la mejora, cada una acompañada de un ícono representativo y una breve explicación que resalta su aporte al análisis, la toma de decisiones y el fortalecimiento del proyecto.')
+              img.mb-3.d-block.d-lg-none(src='@/assets/curso/temas/tema3/img_4.svg', alt='La figura muestra las características del diagnóstico en proyectos agropecuarios comunitarios. Se presentan seis recuadros con las principales características del diagnóstico: objetivo, integral, participativo, sistemático, analítico y orientado a la mejora, cada una acompañada de un ícono representativo y una breve explicación que resalta su aporte al análisis, la toma de decisiones y el fortalecimiento del proyecto.')
               figcaption Nota. SENA, (2026).
 
     Separador
@@ -55,7 +55,7 @@
     .mb-0 
 
     p.mb-3(data-aos="zoom-in-right") Las herramientas de análisis permiten organizar, interpretar y evaluar la información recopilada durante el diagnóstico de un proyecto. Su aplicación facilita identificar fortalezas, oportunidades, debilidades y problemáticas, establecer relaciones entre sus causas y efectos, priorizar necesidades y fundamentar la toma de decisiones para formular un plan de acción estratégico acorde con las condiciones del territorio y los objetivos del proyecto.
-    p.mb-5(data-aos="zoom-in-right") Las herramientas más utilizadas y de fácil aplicación en el contexto rural, son las siguientes: 
+    p.mb-5(data-aos="zoom-in-right") Las herramientas más utilizadas y de fácil aplicación en el contexto rural son las siguientes: 
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
@@ -109,22 +109,22 @@
         AcordionA(tipo="a"  clase-tarjeta="tarjeta tarjeta--color-sistema-h")
           div(titulo="Comprensión del contexto")
             p.mb-0 Permite reconocer las condiciones del territorio, la comunidad y el sistema productivo para orientar acciones acordes con la realidad del proyecto.
-            p.mb-0 #[strong Ejemplos:] conocer la disponibilidad de agua antes de establecer un cultivo.
+            p.mb-0 #[strong Ejemplo:] conocer la disponibilidad de agua antes de establecer un cultivo.
           div(titulo="Priorización de acciones")
             p.mb-0 Facilita ordenar las actividades según su urgencia, impacto y disponibilidad de recursos, favoreciendo una ejecución más organizada y eficiente.
-            p.mb-0 #[strong Ejemplos:] atender primero el mantenimiento del sistema de riego.
+            p.mb-0 #[strong Ejemplo:] atender primero el mantenimiento del sistema de riego.
           div(titulo="Optimización de recursos")
             p.mb-0 Favorece el aprovechamiento adecuado de los recursos disponibles, evitando desperdicios y mejorando el rendimiento de las actividades programadas.
-            p.mb-0 #[strong Ejemplos:] distribuir el presupuesto entre insumos y asistencia técnica.
+            p.mb-0 #[strong Ejemplo:] distribuir el presupuesto entre insumos y asistencia técnica.
           div(titulo="Prevención de riesgos")
             p.mb-0 Permite anticipar situaciones que pueden afectar el desarrollo del proyecto y establecer medidas para reducir sus posibles consecuencias.
-            p.mb-0 #[strong Ejemplos:] implementar drenajes antes de la temporada de lluvias.
+            p.mb-0 #[strong Ejemplo:] implementar drenajes antes de la temporada de lluvias.
           div(titulo="Seguimiento y evaluación")
             p.mb-0 Facilita verificar el cumplimiento de las actividades y valorar los resultados obtenidos para realizar ajustes cuando sean necesarios.
-            p.mb-0 #[strong Ejemplos:] comparar la producción obtenida con la meta establecida.
+            p.mb-0 #[strong Ejemplo:] comparar la producción obtenida con la meta establecida.
           div(titulo="Mejoramiento continuo")
             p.mb-0 Promueve la incorporación permanente de ajustes que incrementen la eficiencia, la productividad y la sostenibilidad del proyecto.
-            p.mb-0 #[strong Ejemplos:] adoptar nuevas prácticas para mejorar el rendimiento del cultivo.
+            p.mb-0 #[strong Ejemplo:] adoptar nuevas prácticas para mejorar el rendimiento del cultivo.
 
 </template>
 

@@ -220,10 +220,10 @@ export default {
     {
       termino: 'Tasa interna de retorno (TIR)',
       significado:
-        'Tasa de descuentos que equivale al valor presente del flujo de caja neto en relación con el costo inicial de un proyecto.',
+        'Tasa de descuento que equivale al valor presente del flujo de caja neto en relación con el costo inicial de un proyecto.',
     },
     {
-      termino: 'Valor presente neto (VAN)',
+      termino: 'Valor Actual Neto (VAN)',
       significado:
         'Valor presente de la corriente estimada de los flujos de caja neto de un proyecto, descontando el costo de capital de la firma, menos el costo inicial del proyecto.',
     },
@@ -246,7 +246,7 @@ export default {
     },
     {
       referencia:
-        'Hernández Diaz, G. A., Matamoros Cárdenas, M. y Sánchez Segura, A. F. (2019). <em>Actualización de la estimación de los indicadores “Razón Precio-Cuenta”.</em> Dirección de estudios económicos.',
+        'Hernández Diaz, G. A., Matamoros Cárdenas, M. y Sánchez Segura, A. F. (2019). <em>Actualización de la estimación de los indicadores “Razón Precio-Cuenta”.</em> Dirección de Estudios Económicos.',
     },
     {
       referencia:
@@ -311,7 +311,7 @@ export default {
         },
         {
           nombre: 'Silvia Milena Sequeda Cárdenas',
-          cargo: 'Evaluador instruccional',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro de Diseño y Metrología – Regional Distrito Capital',
         },
         {
@@ -333,7 +333,7 @@ export default {
       autores: [
         {
           nombre: 'Carmen Alicia Martínez Torres',
-          cargo: 'Diseño web',
+          cargo: 'Diseñadora web',
           centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
@@ -343,7 +343,7 @@ export default {
         },
         {
           nombre: 'Carmen Alicia Martínez Torres',
-          cargo: 'Animador y productor audiovisual',
+          cargo: 'Animadora y productora audiovisual',
           centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
@@ -358,12 +358,12 @@ export default {
       autores: [
         {
           nombre: 'Laura Daniela Burgos Rueda',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
           nombre: 'Luz Karime Amaya Cabra',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
@@ -373,7 +373,7 @@ export default {
         },
         {
           nombre: 'Karine Isabel Ospino Fritz',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          cargo: 'Validadora y vinculador de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
       ],

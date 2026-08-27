@@ -88,7 +88,7 @@
           img(src='@/assets/curso/temas/tema4/img_4.png', class="img-fluid")
       .col-12.col-lg-9.mb-3.mb-lg-0(data-aos="flip-left")
         p.mb-2(data-aos="zoom-in-right") El procedimiento para elaborar un plan de acción estratégico comprende una secuencia organizada de actividades que permiten transformar la información obtenida durante el diagnóstico en acciones concretas y viables. Su desarrollo facilita la definición de prioridades, la organización de recursos, la asignación de responsabilidades y el establecimiento de mecanismos de seguimiento, favoreciendo una ejecución coordinada y orientada al cumplimiento de los objetivos del proyecto agropecuario.    
-        p.mb-3(data-aos="zoom-in-right") Los pasos para elaborar un plan de acción estratégico, con la información recolectada es el siguiente:
+        p.mb-3(data-aos="zoom-in-right") Los pasos para elaborar un plan de acción estratégico, con la información recolectada, son los siguientes:
 
     .row.justify-content-center.align-items-center.mb-lg-3(data-aos="fade-right")
       .col-lg-12
@@ -98,8 +98,8 @@
         .row.justify-content-center.align-items-center
           .col-lg-12
             figure.mb-3
-              img.mb-3.d-none.d-lg-block(src='@/assets/curso/temas/tema4/img_5.svg', alt='La figura presenta el procedimiento para elaborar un plan de acción estratégico mediante una secuencia de seis pasos. El contenido muestra el análisis del diagnóstico, la priorización de necesidades, la definición de estrategias, la estructuración del plan, la validación de la propuesta y la implementación de las acciones. Cada etapa está representada con un ícono y una breve descripción que explica su propósito dentro del proceso de organización y ejecución de un proyecto agropecuario comunitario.')
-              img.mb-3.d-block.d-lg-none(src='@/assets/curso/temas/tema4/img_6.svg', alt='La figura presenta el procedimiento para elaborar un plan de acción estratégico mediante una secuencia de seis pasos. El contenido muestra el análisis del diagnóstico, la priorización de necesidades, la definición de estrategias, la estructuración del plan, la validación de la propuesta y la implementación de las acciones. Cada etapa está representada con un ícono y una breve descripción que explica su propósito dentro del proceso de organización y ejecución de un proyecto agropecuario comunitario.')
+              img.mb-3.d-none.d-lg-block(src='@/assets/curso/temas/tema4/img_5.svg', alt='La figura presenta el procedimiento para elaborar un plan de acción estratégico mediante una secuencia de seis pasos. El contenido muestra el análisis del diagnóstico, la priorización de necesidades, la definición de estrategias, la estructuración del plan, la validación de la propuesta y la implementación de las acciones. Cada etapa una breve descripción que explica su propósito dentro del proceso de organización y ejecución de un proyecto agropecuario comunitario.')
+              img.mb-3.d-block.d-lg-none(src='@/assets/curso/temas/tema4/img_6.svg', alt='La figura presenta el procedimiento para elaborar un plan de acción estratégico mediante una secuencia de seis pasos. El contenido muestra el análisis del diagnóstico, la priorización de necesidades, la definición de estrategias, la estructuración del plan, la validación de la propuesta y la implementación de las acciones. Cada etapa una breve descripción que explica su propósito dentro del proceso de organización y ejecución de un proyecto agropecuario comunitario.')
             figcaption Nota. SENA, (2026).
 
     Separador

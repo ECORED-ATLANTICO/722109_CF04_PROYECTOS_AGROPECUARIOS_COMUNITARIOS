@@ -66,7 +66,7 @@
             .row.justify-content-center.align-items-center
               .col-10.mb-0
                 h5.mb-3 #[strong Registros técnicos y productivos]
-                p.mb-0 Son los Reúnen información relacionada con producción, costos, rendimientos, inventarios, manejo de cultivos o especies pecuarias y demás indicadores que apoyan la evaluación del proyecto.
+                p.mb-0 Reúnen información relacionada con producción, costos, rendimientos, inventarios, manejo de cultivos o especies pecuarias y demás indicadores que apoyan la evaluación del proyecto.
         .col-12.col-lg-3.mb-3.mb-lg-0(data-aos="flip-left")
           figure
             img(src='@/assets/curso/temas/tema2/img_3.png', class="img-fluid d-none d-lg-block")
