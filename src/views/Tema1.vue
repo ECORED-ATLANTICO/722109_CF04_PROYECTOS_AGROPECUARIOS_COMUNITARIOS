@@ -404,21 +404,21 @@
               p Después de tener los datos en el archivo de Excel, se debe dar clic en insertar función:
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema1/img26.png', alt='En este paso se procede a dar clic en insertar función.')
+                img(src='@/assets/curso/temas/tema1/img26.jpeg', alt='En este paso se procede a dar clic en insertar función.')
           .row.justify-content-center.align-items-center
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 3
               p Después de dar clic en insertar función, se procede a buscar la palabra TIR, dar doble clic y aparece el siguiente cuadro de diálogo:
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema1/img27.png', alt='A continuación se da doble clic en insertar función, se procede a buscar la palabra TIR  y aparece el cuadro de diálogo.')
+                img(src='@/assets/curso/temas/tema1/img27.jpeg', alt='A continuación se da doble clic en insertar función, se procede a buscar la palabra TIR  y aparece el cuadro de diálogo.')
           .row.justify-content-center.align-items-center
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 4
               p En la celda de Valores se deben seleccionar todos los flujos netos incluyendo el periodo 0:  
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema1/img28.png', alt='En esta figura se ilustra la celda valores, se debe seleccionar los flujos netos incluyendo el periodo 0.')
+                img(src='@/assets/curso/temas/tema1/img28.jpeg', alt='En esta figura se ilustra la celda valores, se debe seleccionar los flujos netos incluyendo el periodo 0.')
           .row.justify-content-center.align-items-center
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 5
