@@ -542,7 +542,7 @@
               p Para calcular lo primero que deben hacer es pasar los datos al archivo en Excel:
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema1/img32.png', alt='Como primer paso para calcular la relación beneficio-costo, se debe pasar los datos a Excel.')
+                img(src='@/assets/curso/temas/tema1/img32.png', alt='Como primer paso para calcular la relación beneficio-costo, se deben pasar los datos a Excel.')
           .row.justify-content-center.align-items-center.p-4
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 2
@@ -584,7 +584,7 @@
               p Finalmente, la R B/C, se determina dividiendo el VNA de los Ingresos con el VNA de los Egresos + Inversión:
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema1/img38.png', alt='Y para finalizar se divide el VNA de los ingresos con el VNA de los egresos mas la innversión.') 
+                img(src='@/assets/curso/temas/tema1/img38.png', alt='Y para finalizar se divide el VNA de los ingresos con el VNA de los egresos mas la inversión.') 
 
     
     p Después de haber desarrollado los respectivos indicadores se procede a efectuar los análisis y la toma de decisiones.
