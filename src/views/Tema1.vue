@@ -283,35 +283,35 @@
               p Para calcular lo primero que deben hacer es pasar los datos al archivo en Excel:
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema1/img19.png', alt='En este paso inicial, para calcular el valor presente neto se pasan los datos a Excel.')
+                img(src='@/assets/curso/temas/tema1/img19.jpg', alt='En este paso inicial, para calcular el valor presente neto se pasan los datos a Excel.')
           .row.justify-content-center.align-items-center
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 2
               p Después de tener los datos en el archivo de Excel, se da clic en insertar función y se procede a buscar la palabra VNA:
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema1/img20.png', alt='En este paso se procede dar clic en insertar función y se procede a buscar la palabra VNA.')
+                img(src='@/assets/curso/temas/tema1/img20.jpg', alt='En este paso se procede dar clic en insertar función y se procede a buscar la palabra VNA.')
           .row.justify-content-center.align-items-center
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 3
               p Ahora se debe dar doble clic para insertar la función y aparece el siguiente cuadro de diálogo:
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema1/img21.png', alt='Al dar doble clic se inserta la función y aparece un cuadro de diálogo.')
+                img(src='@/assets/curso/temas/tema1/img21.jpg', alt='Al dar doble clic se inserta la función y aparece un cuadro de diálogo.')
           .row.justify-content-center.align-items-center
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 4
               p En la celda de Tasa se refiere a la tasa de oportunidad, la celda de valores, corresponden a los flujos netos:
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema1/img22.png', alt='Se detalla en este paso, en la celda de Tasa, se refiere a la tasa de oportunidad, en este caso 18 %  y en la celda de valores corresponde a los flujos netos del periodo 1 a periodo 3.')
+                img(src='@/assets/curso/temas/tema1/img22.jpg', alt='Se detalla en este paso, en la celda de Tasa, se refiere a la tasa de oportunidad, en este caso 18 %  y en la celda de valores corresponde a los flujos netos del periodo 1 a periodo 3.')
           .row.justify-content-center.align-items-center
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 5
               p Finalmente, al digitar los datos, dar clic en aceptar, al resultado se le suma el flujo neto de la inversión, correspondiente al periodo 0:
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema1/img23.png', alt='Al resultado se le suma el flujo neto correspondiente al período 0.')
+                img(src='@/assets/curso/temas/tema1/img23.jpg', alt='Al resultado se le suma el flujo neto correspondiente al período 0.')
 
     .row.justify-content-center.align-items-center.mb-3
       .col-md-12.col-lg-12
@@ -584,7 +584,7 @@
               p Finalmente, la R B/C, se determina dividiendo el VNA de los Ingresos con el VNA de los Egresos + Inversión:
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema1/img38.png', alt='Y para finalizar se divide el VNA de los ingresos con el VNA de los egresos mas la inversión.') 
+                img(src='@/assets/curso/temas/tema1/img38.png', alt='Y para finalizar, se divide el VNA de los ingresos con el VNA de los egresos más la inversión.') 
 
     
     p Después de haber desarrollado los respectivos indicadores se procede a efectuar los análisis y la toma de decisiones.
@@ -627,8 +627,8 @@
           h5 Figura 3.
           span Diferencias análisis económico y social vs. análisis financiero
         figure.mb-0
-          img(src="@/assets/curso/temas/tema1/img39.svg", alt="La figura describe una comparación entre el análisis económico y social y el análisis financiero de un proyecto. El análisis económico y social evalúa aspectos como la productividad, la rentabilidad, el crecimiento económico, el impacto en la sociedad, la distribución del ingreso y la contribución del proyecto al desarrollo económico. El análisis financiero se centra en el rendimiento del capital, el beneficio para los inversionistas, la distribución de utilidades, los precios de mercado y la capacidad del proyecto para generar ganancias.").d-none.d-lg-block.d-md-none
-          img(src="@/assets/curso/temas/tema1/img40.svg", alt="La figura describe una comparación entre el análisis económico y social y el análisis financiero de un proyecto. El análisis económico y social evalúa aspectos como la productividad, la rentabilidad, el crecimiento económico, el impacto en la sociedad, la distribución del ingreso y la contribución del proyecto al desarrollo económico. El análisis financiero se centra en el rendimiento del capital, el beneficio para los inversionistas, la distribución de utilidades, los precios de mercado y la capacidad del proyecto para generar ganancias.").d-block.d-lg-none.d-md-block
+          img(src="@/assets/curso/temas/tema1/img39.svg", alt="La figura muestra las características del diagnóstico en proyectos agropecuarios comunitarios. Se presentan seis recuadros con las principales características del diagnóstico: objetivo, integral, participativo, sistemático, analítico y orientado a la mejora, cada una acompañada de una breve explicación que resalta su aporte al análisis, la toma de decisiones y el fortalecimiento del proyecto.").d-none.d-lg-block.d-md-none
+          img(src="@/assets/curso/temas/tema1/img40.svg", alt="La figura muestra las características del diagnóstico en proyectos agropecuarios comunitarios. Se presentan seis recuadros con las principales características del diagnóstico: objetivo, integral, participativo, sistemático, analítico y orientado a la mejora, cada una acompañada de una breve explicación que resalta su aporte al análisis, la toma de decisiones y el fortalecimiento del proyecto.").d-block.d-lg-none.d-md-block
           figcaption Nota. SENA, (2026).
    
     .row.justify-content-center.align-items-center(data-aos="fade-left")
