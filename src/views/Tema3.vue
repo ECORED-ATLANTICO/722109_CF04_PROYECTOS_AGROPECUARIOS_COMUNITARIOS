@@ -44,8 +44,8 @@
         .row.justify-content-center.align-items-center
           .col-lg-12
             figure.mb-3
-              img.mb-3.d-none.d-lg-block(src='@/assets/curso/temas/tema3/img_3.svg', alt='La figura muestra las características del diagnóstico en proyectos agropecuarios comunitarios. Se presentan seis recuadros con las principales características del diagnóstico: objetivo, integral, participativo, sistemático, analítico y orientado a la mejora, cada una acompañada de un ícono representativo y una breve explicación que resalta su aporte al análisis, la toma de decisiones y el fortalecimiento del proyecto.')
-              img.mb-3.d-block.d-lg-none(src='@/assets/curso/temas/tema3/img_4.svg', alt='La figura muestra las características del diagnóstico en proyectos agropecuarios comunitarios. Se presentan seis recuadros con las principales características del diagnóstico: objetivo, integral, participativo, sistemático, analítico y orientado a la mejora, cada una acompañada de un ícono representativo y una breve explicación que resalta su aporte al análisis, la toma de decisiones y el fortalecimiento del proyecto.')
+              img.mb-3.d-none.d-lg-block(src='@/assets/curso/temas/tema3/img_3.svg', alt='La figura muestra las características del diagnóstico en proyectos agropecuarios comunitarios. Se presentan seis recuadros con las principales características del diagnóstico: objetivo, integral, participativo, sistemático, analítico y orientado a la mejora, cada una acompañada de una breve explicación que resalta su aporte al análisis, la toma de decisiones y el fortalecimiento del proyecto.')
+              img.mb-3.d-block.d-lg-none(src='@/assets/curso/temas/tema3/img_4.svg', alt='La figura muestra las características del diagnóstico en proyectos agropecuarios comunitarios. Se presentan seis recuadros con las principales características del diagnóstico: objetivo, integral, participativo, sistemático, analítico y orientado a la mejora, cada una acompañada de una breve explicación que resalta su aporte al análisis, la toma de decisiones y el fortalecimiento del proyecto.')
               figcaption Nota. SENA, (2026).
 
     Separador
