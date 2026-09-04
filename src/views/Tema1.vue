@@ -304,7 +304,7 @@
               p En la celda de Tasa se refiere a la tasa de oportunidad, la celda de valores, corresponden a los flujos netos:
             .col-md-8.col-lg-7.mb-0.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema1/img22.jpg', alt='Se detalla en este paso, en la celda de Tasa, se refiere a la tasa de oportunidad, en este caso 18 %  y en la celda de valores corresponde a los flujos netos del periodo 1 a periodo 3.')
+                img(src='@/assets/curso/temas/tema1/img22.png', alt='Se detalla en este paso, en la celda de Tasa, se refiere a la tasa de oportunidad, en este caso 18 %  y en la celda de valores corresponde a los flujos netos del periodo 1 a periodo 3.')
           .row.justify-content-center.align-items-center
             .col-lg-5.mb-4.mb-lg-0
               h5 Paso 5
